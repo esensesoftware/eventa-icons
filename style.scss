@@ -1,0 +1,3075 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lf2ifa');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lf2ifa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lf2ifa') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lf2ifa') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lf2ifa##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="evicon-"], [class*=" evicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.evicon-waiting-approval {
+  &:before {
+    content: $evicon-waiting-approval; 
+  }
+}
+.evicon-chatbot {
+  &:before {
+    content: $evicon-chatbot; 
+  }
+}
+.evicon-tune-2 {
+  &:before {
+    content: $evicon-tune-2; 
+  }
+}
+.evicon-dollar {
+  &:before {
+    content: $evicon-dollar; 
+  }
+}
+.evicon-groups {
+  &:before {
+    content: $evicon-groups; 
+  }
+}
+.evicon-night-shelter {
+  &:before {
+    content: $evicon-night-shelter; 
+  }
+}
+.evicon-oil-barrel {
+  &:before {
+    content: $evicon-oil-barrel; 
+  }
+}
+.evicon-work {
+  &:before {
+    content: $evicon-work; 
+  }
+}
+.evicon-right-panel-close {
+  &:before {
+    content: $evicon-right-panel-close; 
+  }
+}
+.evicon-right-panel-open {
+  &:before {
+    content: $evicon-right-panel-open; 
+  }
+}
+.evicon-outline-questionnaire-2 {
+  &:before {
+    content: $evicon-outline-questionnaire-2; 
+  }
+}
+.evicon-questionnaire-2-cross {
+  &:before {
+    content: $evicon-questionnaire-2-cross; 
+  }
+}
+.evicon-questionnaire-2 {
+  &:before {
+    content: $evicon-questionnaire-2; 
+  }
+}
+.evicon-folder-check {
+  &:before {
+    content: $evicon-folder-check; 
+  }
+}
+.evicon-new-tab {
+  &:before {
+    content: $evicon-new-tab; 
+  }
+}
+.evicon-history-reversed {
+  &:before {
+    content: $evicon-history-reversed; 
+  }
+}
+.evicon-Vote-Results {
+  &:before {
+    content: $evicon-Vote-Results; 
+  }
+}
+.evicon-Archive {
+  &:before {
+    content: $evicon-Archive; 
+  }
+}
+.evicon-CC {
+  &:before {
+    content: $evicon-CC; 
+  }
+}
+.evicon-Print-attachment {
+  &:before {
+    content: $evicon-Print-attachment; 
+  }
+}
+.evicon-Print-Card {
+  &:before {
+    content: $evicon-Print-Card; 
+  }
+}
+.evicon-Print-Qr {
+  &:before {
+    content: $evicon-Print-Qr; 
+  }
+}
+.evicon-Recall {
+  &:before {
+    content: $evicon-Recall; 
+  }
+}
+.evicon-Screenshot {
+  &:before {
+    content: $evicon-Screenshot; 
+  }
+}
+.evicon-Send-attachment {
+  &:before {
+    content: $evicon-Send-attachment; 
+  }
+}
+.evicon-Send-correspondences {
+  &:before {
+    content: $evicon-Send-correspondences; 
+  }
+}
+.evicon-Square {
+  &:before {
+    content: $evicon-Square; 
+  }
+}
+.evicon-calendar-check {
+  &:before {
+    content: $evicon-calendar-check; 
+  }
+}
+.evicon-calendar-cross {
+  &:before {
+    content: $evicon-calendar-cross; 
+  }
+}
+.evicon-card-check {
+  &:before {
+    content: $evicon-card-check; 
+  }
+}
+.evicon-sort-magic-up {
+  &:before {
+    content: $evicon-sort-magic-up; 
+  }
+}
+.evicon-megaphone-stripped {
+  &:before {
+    content: $evicon-megaphone-stripped; 
+  }
+}
+.evicon-swipe-pages {
+  &:before {
+    content: $evicon-swipe-pages; 
+  }
+}
+.evicon-logout {
+  &:before {
+    content: $evicon-logout; 
+  }
+}
+.evicon-user-bold {
+  &:before {
+    content: $evicon-user-bold; 
+  }
+}
+.evicon-user-outline {
+  &:before {
+    content: $evicon-user-outline; 
+  }
+}
+.evicon-activity-bold {
+  &:before {
+    content: $evicon-activity-bold; 
+  }
+}
+.evicon-activity-outline {
+  &:before {
+    content: $evicon-activity-outline; 
+  }
+}
+.evicon-add-square-outline {
+  &:before {
+    content: $evicon-add-square-outline; 
+  }
+}
+.evicon-book-square-bold {
+  &:before {
+    content: $evicon-book-square-bold; 
+  }
+}
+.evicon-book-square-outline {
+  &:before {
+    content: $evicon-book-square-outline; 
+  }
+}
+.evicon-briefcase-bold {
+  &:before {
+    content: $evicon-briefcase-bold; 
+  }
+}
+.evicon-briefcase-outline {
+  &:before {
+    content: $evicon-briefcase-outline; 
+  }
+}
+.evicon-brush-outline {
+  &:before {
+    content: $evicon-brush-outline; 
+  }
+}
+.evicon-brush-square-outline {
+  &:before {
+    content: $evicon-brush-square-outline; 
+  }
+}
+.evicon-calendar-2-oultine {
+  &:before {
+    content: $evicon-calendar-2-oultine; 
+  }
+}
+.evicon-calendar-bold {
+  &:before {
+    content: $evicon-calendar-bold; 
+  }
+}
+.evicon-calendar-outline {
+  &:before {
+    content: $evicon-calendar-outline; 
+  }
+}
+.evicon-chart-bold {
+  &:before {
+    content: $evicon-chart-bold; 
+  }
+}
+.evicon-chart-outline {
+  &:before {
+    content: $evicon-chart-outline; 
+  }
+}
+.evicon-clock-oultline {
+  &:before {
+    content: $evicon-clock-oultline; 
+  }
+}
+.evicon-cross1 {
+  &:before {
+    content: $evicon-cross1; 
+  }
+}
+.evicon-delete-outline {
+  &:before {
+    content: $evicon-delete-outline; 
+  }
+}
+.evicon-direct-bold {
+  &:before {
+    content: $evicon-direct-bold; 
+  }
+}
+.evicon-document-text-outline {
+  &:before {
+    content: $evicon-document-text-outline; 
+  }
+}
+.evicon-edit-outline {
+  &:before {
+    content: $evicon-edit-outline; 
+  }
+}
+.evicon-edit-square-bold {
+  &:before {
+    content: $evicon-edit-square-bold; 
+  }
+}
+.evicon-element-4-bold {
+  &:before {
+    content: $evicon-element-4-bold; 
+  }
+}
+.evicon-element-4-outline {
+  &:before {
+    content: $evicon-element-4-outline; 
+  }
+}
+.evicon-eraser-outline {
+  &:before {
+    content: $evicon-eraser-outline; 
+  }
+}
+.evicon-eye-bold {
+  &:before {
+    content: $evicon-eye-bold; 
+  }
+}
+.evicon-filter-outline {
+  &:before {
+    content: $evicon-filter-outline; 
+  }
+}
+.evicon-gallery-add-outline {
+  &:before {
+    content: $evicon-gallery-add-outline; 
+  }
+}
+.evicon-heart-bold {
+  &:before {
+    content: $evicon-heart-bold; 
+  }
+}
+.evicon-heart-outline {
+  &:before {
+    content: $evicon-heart-outline; 
+  }
+}
+.evicon-info-circle-outline {
+  &:before {
+    content: $evicon-info-circle-outline; 
+  }
+}
+.evicon-location-outline {
+  &:before {
+    content: $evicon-location-outline; 
+  }
+}
+.evicon-lock-outline {
+  &:before {
+    content: $evicon-lock-outline; 
+  }
+}
+.evicon-mapp-chevron-down {
+  &:before {
+    content: $evicon-mapp-chevron-down; 
+  }
+}
+.evicon-mapp-chevron-left {
+  &:before {
+    content: $evicon-mapp-chevron-left; 
+  }
+}
+.evicon-mapp-chevron-right {
+  &:before {
+    content: $evicon-mapp-chevron-right; 
+  }
+}
+.evicon-mapp-chevron-up {
+  &:before {
+    content: $evicon-mapp-chevron-up; 
+  }
+}
+.evicon-maximize-outline {
+  &:before {
+    content: $evicon-maximize-outline; 
+  }
+}
+.evicon-message-add-outline {
+  &:before {
+    content: $evicon-message-add-outline; 
+  }
+}
+.evicon-more-square-outline {
+  &:before {
+    content: $evicon-more-square-outline; 
+  }
+}
+.evicon-notification-outline {
+  &:before {
+    content: $evicon-notification-outline; 
+  }
+}
+.evicon-paper-download-outline {
+  &:before {
+    content: $evicon-paper-download-outline; 
+  }
+}
+.evicon-path-outline {
+  &:before {
+    content: $evicon-path-outline; 
+  }
+}
+.evicon-pen-outline {
+  &:before {
+    content: $evicon-pen-outline; 
+  }
+}
+.evicon-play-bold {
+  &:before {
+    content: $evicon-play-bold; 
+  }
+}
+.evicon-quote-up-square-outline {
+  &:before {
+    content: $evicon-quote-up-square-outline; 
+  }
+}
+.evicon-refresh-2-outline {
+  &:before {
+    content: $evicon-refresh-2-outline; 
+  }
+}
+.evicon-refresh-outline {
+  &:before {
+    content: $evicon-refresh-outline; 
+  }
+}
+.evicon-rotate-right-outline {
+  &:before {
+    content: $evicon-rotate-right-outline; 
+  }
+}
+.evicon-search-outline {
+  &:before {
+    content: $evicon-search-outline; 
+  }
+}
+.evicon-search-status-bold {
+  &:before {
+    content: $evicon-search-status-bold; 
+  }
+}
+.evicon-setting-bold {
+  &:before {
+    content: $evicon-setting-bold; 
+  }
+}
+.evicon-setting-outline {
+  &:before {
+    content: $evicon-setting-outline; 
+  }
+}
+.evicon-task-square-bold {
+  &:before {
+    content: $evicon-task-square-bold; 
+  }
+}
+.evicon-task-square-outline {
+  &:before {
+    content: $evicon-task-square-outline; 
+  }
+}
+.evicon-text-block-outline {
+  &:before {
+    content: $evicon-text-block-outline; 
+  }
+}
+.evicon-tick-square-outline {
+  &:before {
+    content: $evicon-tick-square-outline; 
+  }
+}
+.evicon-timer-outline {
+  &:before {
+    content: $evicon-timer-outline; 
+  }
+}
+.evicon-undo-outline {
+  &:before {
+    content: $evicon-undo-outline; 
+  }
+}
+.evicon-upload-outline {
+  &:before {
+    content: $evicon-upload-outline; 
+  }
+}
+.evicon-voice-square-outline {
+  &:before {
+    content: $evicon-voice-square-outline; 
+  }
+}
+.evicon-stamp-outline {
+  &:before {
+    content: $evicon-stamp-outline; 
+  }
+}
+.evicon-task-recurring {
+  &:before {
+    content: $evicon-task-recurring; 
+  }
+}
+.evicon-window {
+  &:before {
+    content: $evicon-window; 
+  }
+}
+.evicon-berry-logo {
+  &:before {
+    content: $evicon-berry-logo; 
+  }
+}
+.evicon-circle-cross {
+  &:before {
+    content: $evicon-circle-cross; 
+  }
+}
+.evicon-doc-center {
+  &:before {
+    content: $evicon-doc-center; 
+  }
+}
+.evicon-palette {
+  &:before {
+    content: $evicon-palette; 
+  }
+}
+.evicon-plus-circle {
+  &:before {
+    content: $evicon-plus-circle; 
+  }
+}
+.evicon-annote-save {
+  &:before {
+    content: $evicon-annote-save; 
+  }
+}
+.evicon-card-square-employee {
+  &:before {
+    content: $evicon-card-square-employee; 
+  }
+}
+.evicon-envelope-front-edge {
+  &:before {
+    content: $evicon-envelope-front-edge; 
+  }
+}
+.evicon-paperclip-edge {
+  &:before {
+    content: $evicon-paperclip-edge; 
+  }
+}
+.evicon-sign-pen {
+  &:before {
+    content: $evicon-sign-pen; 
+  }
+}
+.evicon-tune {
+  &:before {
+    content: $evicon-tune; 
+  }
+}
+.evicon-file-generic-plus-outline {
+  &:before {
+    content: $evicon-file-generic-plus-outline; 
+  }
+}
+.evicon-file-generic-plus {
+  &:before {
+    content: $evicon-file-generic-plus; 
+  }
+}
+.evicon-file-txt-outline {
+  &:before {
+    content: $evicon-file-txt-outline; 
+  }
+}
+.evicon-link-plus {
+  &:before {
+    content: $evicon-link-plus; 
+  }
+}
+.evicon-signature-rotated {
+  &:before {
+    content: $evicon-signature-rotated; 
+  }
+}
+.evicon-face-id {
+  &:before {
+    content: $evicon-face-id; 
+  }
+}
+.evicon-fingerprint {
+  &:before {
+    content: $evicon-fingerprint; 
+  }
+}
+.evicon-face-recognition {
+  &:before {
+    content: $evicon-face-recognition; 
+  }
+}
+.evicon-image-out {
+  &:before {
+    content: $evicon-image-out; 
+  }
+}
+.evicon-handshake-cross {
+  &:before {
+    content: $evicon-handshake-cross; 
+  }
+}
+.evicon-back-left-filled {
+  &:before {
+    content: $evicon-back-left-filled; 
+  }
+}
+.evicon-back-left-outline {
+  &:before {
+    content: $evicon-back-left-outline; 
+  }
+}
+.evicon-certificate-2-stripped {
+  &:before {
+    content: $evicon-certificate-2-stripped; 
+  }
+}
+.evicon-text-align-center {
+  &:before {
+    content: $evicon-text-align-center; 
+  }
+}
+.evicon-text-align-right {
+  &:before {
+    content: $evicon-text-align-right; 
+  }
+}
+.evicon-text-align-left {
+  &:before {
+    content: $evicon-text-align-left; 
+  }
+}
+.evicon-additional-feature {
+  &:before {
+    content: $evicon-additional-feature; 
+  }
+}
+.evicon-annote {
+  &:before {
+    content: $evicon-annote; 
+  }
+}
+.evicon-chat-tick-double-2 {
+  &:before {
+    content: $evicon-chat-tick-double-2; 
+  }
+}
+.evicon-ms-exchange {
+  &:before {
+    content: $evicon-ms-exchange; 
+  }
+}
+.evicon-dashboard-complex {
+  &:before {
+    content: $evicon-dashboard-complex; 
+  }
+}
+.evicon-back-right {
+  &:before {
+    content: $evicon-back-right; 
+  }
+}
+.evicon-underline {
+  &:before {
+    content: $evicon-underline; 
+  }
+}
+.evicon-italic {
+  &:before {
+    content: $evicon-italic; 
+  }
+}
+.evicon-bold {
+  &:before {
+    content: $evicon-bold; 
+  }
+}
+.evicon-shirt-tie {
+  &:before {
+    content: $evicon-shirt-tie; 
+  }
+}
+.evicon-person-three-sit-clock {
+  &:before {
+    content: $evicon-person-three-sit-clock; 
+  }
+}
+.evicon-calendar-clock {
+  &:before {
+    content: $evicon-calendar-clock; 
+  }
+}
+.evicon-pie-chart-0 {
+  &:before {
+    content: $evicon-pie-chart-0; 
+  }
+}
+.evicon-lock-2-open {
+  &:before {
+    content: $evicon-lock-2-open; 
+  }
+}
+.evicon-lock-2 {
+  &:before {
+    content: $evicon-lock-2; 
+  }
+}
+.evicon-pie-chart-1 {
+  &:before {
+    content: $evicon-pie-chart-1; 
+  }
+}
+.evicon-pie-chart-2 {
+  &:before {
+    content: $evicon-pie-chart-2; 
+  }
+}
+.evicon-pie-chart-3 {
+  &:before {
+    content: $evicon-pie-chart-3; 
+  }
+}
+.evicon-pie-chart-4 {
+  &:before {
+    content: $evicon-pie-chart-4; 
+  }
+}
+.evicon-pie-chart-5 {
+  &:before {
+    content: $evicon-pie-chart-5; 
+  }
+}
+.evicon-pie-chart-6 {
+  &:before {
+    content: $evicon-pie-chart-6; 
+  }
+}
+.evicon-pie-chart-7 {
+  &:before {
+    content: $evicon-pie-chart-7; 
+  }
+}
+.evicon-pie-chart-8 {
+  &:before {
+    content: $evicon-pie-chart-8; 
+  }
+}
+.evicon-outline-archive {
+  &:before {
+    content: $evicon-outline-archive; 
+  }
+}
+.evicon-outline-briefcase {
+  &:before {
+    content: $evicon-outline-briefcase; 
+  }
+}
+.evicon-outline-calendar {
+  &:before {
+    content: $evicon-outline-calendar; 
+  }
+}
+.evicon-outline-checklist {
+  &:before {
+    content: $evicon-outline-checklist; 
+  }
+}
+.evicon-outline-cog {
+  &:before {
+    content: $evicon-outline-cog; 
+  }
+}
+.evicon-outline-committee {
+  &:before {
+    content: $evicon-outline-committee; 
+  }
+}
+.evicon-outline-dashboard {
+  &:before {
+    content: $evicon-outline-dashboard; 
+  }
+}
+.evicon-outline-envelope-front {
+  &:before {
+    content: $evicon-outline-envelope-front; 
+  }
+}
+.evicon-outline-eraser {
+  &:before {
+    content: $evicon-outline-eraser; 
+  }
+}
+.evicon-outline-megaphone {
+  &:before {
+    content: $evicon-outline-megaphone; 
+  }
+}
+.evicon-outline-person-employee {
+  &:before {
+    content: $evicon-outline-person-employee; 
+  }
+}
+.evicon-outline-questionnaire {
+  &:before {
+    content: $evicon-outline-questionnaire; 
+  }
+}
+.evicon-outline-vcard-two {
+  &:before {
+    content: $evicon-outline-vcard-two; 
+  }
+}
+.evicon-outline-card-square {
+  &:before {
+    content: $evicon-outline-card-square; 
+  }
+}
+.evicon-outline-filter-2 {
+  &:before {
+    content: $evicon-outline-filter-2; 
+  }
+}
+.evicon-return-left {
+  &:before {
+    content: $evicon-return-left; 
+  }
+}
+.evicon-return-right {
+  &:before {
+    content: $evicon-return-right; 
+  }
+}
+.evicon-chain-cross {
+  &:before {
+    content: $evicon-chain-cross; 
+  }
+}
+.evicon-coffee-1 {
+  &:before {
+    content: $evicon-coffee-1; 
+  }
+}
+.evicon-coffee-2 {
+  &:before {
+    content: $evicon-coffee-2; 
+  }
+}
+.evicon-tag {
+  &:before {
+    content: $evicon-tag; 
+  }
+}
+.evicon-checklist-plus {
+  &:before {
+    content: $evicon-checklist-plus; 
+  }
+}
+.evicon-file-format-bmp {
+  &:before {
+    content: $evicon-file-format-bmp; 
+  }
+}
+.evicon-file-format-gif {
+  &:before {
+    content: $evicon-file-format-gif; 
+  }
+}
+.evicon-file-format-heic {
+  &:before {
+    content: $evicon-file-format-heic; 
+  }
+}
+.evicon-file-format-jpeg {
+  &:before {
+    content: $evicon-file-format-jpeg; 
+  }
+}
+.evicon-file-format-jpg {
+  &:before {
+    content: $evicon-file-format-jpg; 
+  }
+}
+.evicon-file-format-png {
+  &:before {
+    content: $evicon-file-format-png; 
+  }
+}
+.evicon-file-format-tif {
+  &:before {
+    content: $evicon-file-format-tif; 
+  }
+}
+.evicon-file-format-tiff {
+  &:before {
+    content: $evicon-file-format-tiff; 
+  }
+}
+.evicon-file-format-webp {
+  &:before {
+    content: $evicon-file-format-webp; 
+  }
+}
+.evicon-pencil-ruler-plus {
+  &:before {
+    content: $evicon-pencil-ruler-plus; 
+  }
+}
+.evicon-thickness-1 {
+  &:before {
+    content: $evicon-thickness-1; 
+  }
+}
+.evicon-thickness-2 {
+  &:before {
+    content: $evicon-thickness-2; 
+  }
+}
+.evicon-thickness-3 {
+  &:before {
+    content: $evicon-thickness-3; 
+  }
+}
+.evicon-thickness-4 {
+  &:before {
+    content: $evicon-thickness-4; 
+  }
+}
+.evicon-thickness-6 {
+  &:before {
+    content: $evicon-thickness-6; 
+  }
+}
+.evicon-thickness-8 {
+  &:before {
+    content: $evicon-thickness-8; 
+  }
+}
+.evicon-thickness-10 {
+  &:before {
+    content: $evicon-thickness-10; 
+  }
+}
+.evicon-thickness-12 {
+  &:before {
+    content: $evicon-thickness-12; 
+  }
+}
+.evicon-outline-mic {
+  &:before {
+    content: $evicon-outline-mic; 
+  }
+}
+.evicon-undo {
+  &:before {
+    content: $evicon-undo; 
+  }
+}
+.evicon-redo {
+  &:before {
+    content: $evicon-redo; 
+  }
+}
+.evicon-outline-undo {
+  &:before {
+    content: $evicon-outline-undo; 
+  }
+}
+.evicon-outline-trash {
+  &:before {
+    content: $evicon-outline-trash; 
+  }
+}
+.evicon-outline-signature {
+  &:before {
+    content: $evicon-outline-signature; 
+  }
+}
+.evicon-outline-redo {
+  &:before {
+    content: $evicon-outline-redo; 
+  }
+}
+.evicon-outline-person-one-stand {
+  &:before {
+    content: $evicon-outline-person-one-stand; 
+  }
+}
+.evicon-outline-layers-3 {
+  &:before {
+    content: $evicon-outline-layers-3; 
+  }
+}
+.evicon-outline-feather {
+  &:before {
+    content: $evicon-outline-feather; 
+  }
+}
+.evicon-outline-crayon {
+  &:before {
+    content: $evicon-outline-crayon; 
+  }
+}
+.evicon-outline-certificate-2 {
+  &:before {
+    content: $evicon-outline-certificate-2; 
+  }
+}
+.evicon-house-2 {
+  &:before {
+    content: $evicon-house-2; 
+  }
+}
+.evicon-fullscreen-exit-3 {
+  &:before {
+    content: $evicon-fullscreen-exit-3; 
+  }
+}
+.evicon-fullscreen-3 {
+  &:before {
+    content: $evicon-fullscreen-3; 
+  }
+}
+.evicon-crayon {
+  &:before {
+    content: $evicon-crayon; 
+  }
+}
+.evicon-certificate-2 {
+  &:before {
+    content: $evicon-certificate-2; 
+  }
+}
+.evicon-question-circled {
+  &:before {
+    content: $evicon-question-circled; 
+  }
+}
+.evicon-e {
+  &:before {
+    content: $evicon-e; 
+  }
+}
+.evicon-signature-save {
+  &:before {
+    content: $evicon-signature-save; 
+  }
+}
+.evicon-file-broken {
+  &:before {
+    content: $evicon-file-broken; 
+  }
+}
+.evicon-file-cross {
+  &:before {
+    content: $evicon-file-cross; 
+  }
+}
+.evicon-plus-square-multiple {
+  &:before {
+    content: $evicon-plus-square-multiple; 
+  }
+}
+.evicon-plus-square {
+  &:before {
+    content: $evicon-plus-square; 
+  }
+}
+.evicon-calendar-recurring {
+  &:before {
+    content: $evicon-calendar-recurring; 
+  }
+}
+.evicon-file-generic-landscape {
+  &:before {
+    content: $evicon-file-generic-landscape; 
+  }
+}
+.evicon-person-three-sit-recurring {
+  &:before {
+    content: $evicon-person-three-sit-recurring; 
+  }
+}
+.evicon-calendar-edit {
+  &:before {
+    content: $evicon-calendar-edit; 
+  }
+}
+.evicon-misc {
+  &:before {
+    content: $evicon-misc; 
+  }
+}
+.evicon-restore-2 {
+  &:before {
+    content: $evicon-restore-2; 
+  }
+}
+.evicon-restore {
+  &:before {
+    content: $evicon-restore; 
+  }
+}
+.evicon-plane-paper-employee-2 {
+  &:before {
+    content: $evicon-plane-paper-employee-2; 
+  }
+}
+.evicon-plane-paper-employee {
+  &:before {
+    content: $evicon-plane-paper-employee; 
+  }
+}
+.evicon-plane-paper-person-2 {
+  &:before {
+    content: $evicon-plane-paper-person-2; 
+  }
+}
+.evicon-plane-paper-person {
+  &:before {
+    content: $evicon-plane-paper-person; 
+  }
+}
+.evicon-fullscreen-2 {
+  &:before {
+    content: $evicon-fullscreen-2; 
+  }
+}
+.evicon-fullscreen-exit-2 {
+  &:before {
+    content: $evicon-fullscreen-exit-2; 
+  }
+}
+.evicon-play-left-circle {
+  &:before {
+    content: $evicon-play-left-circle; 
+  }
+}
+.evicon-play-right-circle {
+  &:before {
+    content: $evicon-play-right-circle; 
+  }
+}
+.evicon-stop-circle {
+  &:before {
+    content: $evicon-stop-circle; 
+  }
+}
+.evicon-pin-2 {
+  &:before {
+    content: $evicon-pin-2; 
+  }
+}
+.evicon-pin-horizontal-2 {
+  &:before {
+    content: $evicon-pin-horizontal-2; 
+  }
+}
+.evicon-pin-horizontal {
+  &:before {
+    content: $evicon-pin-horizontal; 
+  }
+}
+.evicon-pin-slanted-2 {
+  &:before {
+    content: $evicon-pin-slanted-2; 
+  }
+}
+.evicon-eye-glasses-check {
+  &:before {
+    content: $evicon-eye-glasses-check; 
+  }
+}
+.evicon-eye-glasses-cross {
+  &:before {
+    content: $evicon-eye-glasses-cross; 
+  }
+}
+.evicon-eye-glasses {
+  &:before {
+    content: $evicon-eye-glasses; 
+  }
+}
+.evicon-hourglass-3 {
+  &:before {
+    content: $evicon-hourglass-3; 
+  }
+}
+.evicon-pencil-2 {
+  &:before {
+    content: $evicon-pencil-2; 
+  }
+}
+.evicon-trash-2 {
+  &:before {
+    content: $evicon-trash-2; 
+  }
+}
+.evicon-clock-edit {
+  &:before {
+    content: $evicon-clock-edit; 
+  }
+}
+.evicon-page-break {
+  &:before {
+    content: $evicon-page-break; 
+  }
+}
+.evicon-paper-write-plain {
+  &:before {
+    content: $evicon-paper-write-plain; 
+  }
+}
+.evicon-paper-write {
+  &:before {
+    content: $evicon-paper-write; 
+  }
+}
+.evicon-monitor {
+  &:before {
+    content: $evicon-monitor; 
+  }
+}
+.evicon-bookmark {
+  &:before {
+    content: $evicon-bookmark; 
+  }
+}
+.evicon-file-audio-loading {
+  &:before {
+    content: $evicon-file-audio-loading; 
+  }
+}
+.evicon-file-email-loading {
+  &:before {
+    content: $evicon-file-email-loading; 
+  }
+}
+.evicon-file-excel-loading {
+  &:before {
+    content: $evicon-file-excel-loading; 
+  }
+}
+.evicon-file-generic-loading {
+  &:before {
+    content: $evicon-file-generic-loading; 
+  }
+}
+.evicon-file-image-loading {
+  &:before {
+    content: $evicon-file-image-loading; 
+  }
+}
+.evicon-file-pdf-loading {
+  &:before {
+    content: $evicon-file-pdf-loading; 
+  }
+}
+.evicon-file-powerpoint-loading {
+  &:before {
+    content: $evicon-file-powerpoint-loading; 
+  }
+}
+.evicon-file-txt-loading {
+  &:before {
+    content: $evicon-file-txt-loading; 
+  }
+}
+.evicon-file-video-loading {
+  &:before {
+    content: $evicon-file-video-loading; 
+  }
+}
+.evicon-file-web-loading {
+  &:before {
+    content: $evicon-file-web-loading; 
+  }
+}
+.evicon-file-word-loading {
+  &:before {
+    content: $evicon-file-word-loading; 
+  }
+}
+.evicon-file-zip-loading {
+  &:before {
+    content: $evicon-file-zip-loading; 
+  }
+}
+.evicon-hourglass-2 {
+  &:before {
+    content: $evicon-hourglass-2; 
+  }
+}
+.evicon-briefcase {
+  &:before {
+    content: $evicon-briefcase; 
+  }
+}
+.evicon-desk-lamp {
+  &:before {
+    content: $evicon-desk-lamp; 
+  }
+}
+.evicon-id-card {
+  &:before {
+    content: $evicon-id-card; 
+  }
+}
+.evicon-layers-3 {
+  &:before {
+    content: $evicon-layers-3; 
+  }
+}
+.evicon-save-2 {
+  &:before {
+    content: $evicon-save-2; 
+  }
+}
+.evicon-sign-paper {
+  &:before {
+    content: $evicon-sign-paper; 
+  }
+}
+.evicon-signature-2 {
+  &:before {
+    content: $evicon-signature-2; 
+  }
+}
+.evicon-idea {
+  &:before {
+    content: $evicon-idea; 
+  }
+}
+.evicon-target {
+  &:before {
+    content: $evicon-target; 
+  }
+}
+.evicon-globe-2 {
+  &:before {
+    content: $evicon-globe-2; 
+  }
+}
+.evicon-line-graph {
+  &:before {
+    content: $evicon-line-graph; 
+  }
+}
+.evicon-pen-write {
+  &:before {
+    content: $evicon-pen-write; 
+  }
+}
+.evicon-layers {
+  &:before {
+    content: $evicon-layers; 
+  }
+}
+.evicon-sidebar-collapse {
+  &:before {
+    content: $evicon-sidebar-collapse; 
+  }
+}
+.evicon-sidebar-open {
+  &:before {
+    content: $evicon-sidebar-open; 
+  }
+}
+.evicon-pen-tablet {
+  &:before {
+    content: $evicon-pen-tablet; 
+  }
+}
+.evicon-finish-3 {
+  &:before {
+    content: $evicon-finish-3; 
+  }
+}
+.evicon-archive-2 {
+  &:before {
+    content: $evicon-archive-2; 
+  }
+}
+.evicon-finish-2 {
+  &:before {
+    content: $evicon-finish-2; 
+  }
+}
+.evicon-chat-tick {
+  &:before {
+    content: $evicon-chat-tick; 
+  }
+}
+.evicon-chat-tick-double {
+  &:before {
+    content: $evicon-chat-tick-double; 
+  }
+}
+.evicon-square-thin {
+  &:before {
+    content: $evicon-square-thin; 
+  }
+}
+.evicon-square-thin-double {
+  &:before {
+    content: $evicon-square-thin-double; 
+  }
+}
+.evicon-camera {
+  &:before {
+    content: $evicon-camera; 
+  }
+}
+.evicon-judge-hammer-2 {
+  &:before {
+    content: $evicon-judge-hammer-2; 
+  }
+}
+.evicon-video-camera {
+  &:before {
+    content: $evicon-video-camera; 
+  }
+}
+.evicon-card-square-person {
+  &:before {
+    content: $evicon-card-square-person; 
+  }
+}
+.evicon-pie-chart {
+  &:before {
+    content: $evicon-pie-chart; 
+  }
+}
+.evicon-building-one {
+  &:before {
+    content: $evicon-building-one; 
+  }
+}
+.evicon-vote {
+  &:before {
+    content: $evicon-vote; 
+  }
+}
+.evicon-share-screen {
+  &:before {
+    content: $evicon-share-screen; 
+  }
+}
+.evicon-person-two-question {
+  &:before {
+    content: $evicon-person-two-question; 
+  }
+}
+.evicon-person-one-stand {
+  &:before {
+    content: $evicon-person-one-stand; 
+  }
+}
+.evicon-stop {
+  &:before {
+    content: $evicon-stop; 
+  }
+}
+.evicon-skip-right {
+  &:before {
+    content: $evicon-skip-right; 
+  }
+}
+.evicon-skip-left {
+  &:before {
+    content: $evicon-skip-left; 
+  }
+}
+.evicon-play-right {
+  &:before {
+    content: $evicon-play-right; 
+  }
+}
+.evicon-play-left {
+  &:before {
+    content: $evicon-play-left; 
+  }
+}
+.evicon-person-two-discuss {
+  &:before {
+    content: $evicon-person-two-discuss; 
+  }
+}
+.evicon-person-three-circle {
+  &:before {
+    content: $evicon-person-three-circle; 
+  }
+}
+.evicon-pause {
+  &:before {
+    content: $evicon-pause; 
+  }
+}
+.evicon-social {
+  &:before {
+    content: $evicon-social; 
+  }
+}
+.evicon-mic {
+  &:before {
+    content: $evicon-mic; 
+  }
+}
+.evicon-plane-paper-2 {
+  &:before {
+    content: $evicon-plane-paper-2; 
+  }
+}
+.evicon-cross-circle {
+  &:before {
+    content: $evicon-cross-circle; 
+  }
+}
+.evicon-cross-2 {
+  &:before {
+    content: $evicon-cross-2; 
+  }
+}
+.evicon-check-circle {
+  &:before {
+    content: $evicon-check-circle; 
+  }
+}
+.evicon-sort-a-z {
+  &:before {
+    content: $evicon-sort-a-z; 
+  }
+}
+.evicon-sort-z-a {
+  &:before {
+    content: $evicon-sort-z-a; 
+  }
+}
+.evicon-sort-ya-alef {
+  &:before {
+    content: $evicon-sort-ya-alef; 
+  }
+}
+.evicon-sort-priority {
+  &:before {
+    content: $evicon-sort-priority; 
+  }
+}
+.evicon-sort-one-nine {
+  &:before {
+    content: $evicon-sort-one-nine; 
+  }
+}
+.evicon-sort-old-new {
+  &:before {
+    content: $evicon-sort-old-new; 
+  }
+}
+.evicon-sort-nine-one {
+  &:before {
+    content: $evicon-sort-nine-one; 
+  }
+}
+.evicon-sort-new-old {
+  &:before {
+    content: $evicon-sort-new-old; 
+  }
+}
+.evicon-sort-magic {
+  &:before {
+    content: $evicon-sort-magic; 
+  }
+}
+.evicon-sort-alef-ya {
+  &:before {
+    content: $evicon-sort-alef-ya; 
+  }
+}
+.evicon-ipad {
+  &:before {
+    content: $evicon-ipad; 
+  }
+}
+.evicon-ipad-arrow {
+  &:before {
+    content: $evicon-ipad-arrow; 
+  }
+}
+.evicon-cloud {
+  &:before {
+    content: $evicon-cloud; 
+  }
+}
+.evicon-cloud-cross {
+  &:before {
+    content: $evicon-cloud-cross; 
+  }
+}
+.evicon-filter-2-cross {
+  &:before {
+    content: $evicon-filter-2-cross; 
+  }
+}
+.evicon-filter-2 {
+  &:before {
+    content: $evicon-filter-2; 
+  }
+}
+.evicon-card-square-tick {
+  &:before {
+    content: $evicon-card-square-tick; 
+  }
+}
+.evicon-envelope-exchange {
+  &:before {
+    content: $evicon-envelope-exchange; 
+  }
+}
+.evicon-envelope-front-cross {
+  &:before {
+    content: $evicon-envelope-front-cross; 
+  }
+}
+.evicon-refresh {
+  &:before {
+    content: $evicon-refresh; 
+  }
+}
+.evicon-bell-2 {
+  &:before {
+    content: $evicon-bell-2; 
+  }
+}
+.evicon-file-employee {
+  &:before {
+    content: $evicon-file-employee; 
+  }
+}
+.evicon-file-open-tip {
+  &:before {
+    content: $evicon-file-open-tip; 
+  }
+}
+.evicon-file-pen {
+  &:before {
+    content: $evicon-file-pen; 
+  }
+}
+.evicon-dragger-2 {
+  &:before {
+    content: $evicon-dragger-2; 
+  }
+}
+.evicon-double-chevron-up {
+  &:before {
+    content: $evicon-double-chevron-up; 
+  }
+}
+.evicon-chevron-2-up {
+  &:before {
+    content: $evicon-chevron-2-up; 
+  }
+}
+.evicon-chevron-2-right {
+  &:before {
+    content: $evicon-chevron-2-right; 
+  }
+}
+.evicon-chevron-2-left {
+  &:before {
+    content: $evicon-chevron-2-left; 
+  }
+}
+.evicon-double-chevron-right {
+  &:before {
+    content: $evicon-double-chevron-right; 
+  }
+}
+.evicon-double-chevron-left {
+  &:before {
+    content: $evicon-double-chevron-left; 
+  }
+}
+.evicon-double-chevron-down {
+  &:before {
+    content: $evicon-double-chevron-down; 
+  }
+}
+.evicon-nothingness {
+  &:before {
+    content: $evicon-nothingness; 
+  }
+}
+.evicon-chevron-2-down {
+  &:before {
+    content: $evicon-chevron-2-down; 
+  }
+}
+.evicon-dragger {
+  &:before {
+    content: $evicon-dragger; 
+  }
+}
+.evicon-branch-side {
+  &:before {
+    content: $evicon-branch-side; 
+  }
+}
+.evicon-arrow-bottom-right {
+  &:before {
+    content: $evicon-arrow-bottom-right; 
+  }
+}
+.evicon-arrow-bottom-left {
+  &:before {
+    content: $evicon-arrow-bottom-left; 
+  }
+}
+.evicon-arrow-top-right {
+  &:before {
+    content: $evicon-arrow-top-right; 
+  }
+}
+.evicon-arrow-top-left {
+  &:before {
+    content: $evicon-arrow-top-left; 
+  }
+}
+.evicon-document-forward {
+  &:before {
+    content: $evicon-document-forward; 
+  }
+}
+.evicon-file-check1 {
+  &:before {
+    content: $evicon-file-check1; 
+  }
+}
+.evicon-document-hold {
+  &:before {
+    content: $evicon-document-hold; 
+  }
+}
+.evicon-correspondence-internal-special {
+  &:before {
+    content: $evicon-correspondence-internal-special; 
+  }
+}
+.evicon-eraser {
+  &:before {
+    content: $evicon-eraser; 
+  }
+}
+.evicon-branch-2 {
+  &:before {
+    content: $evicon-branch-2; 
+  }
+}
+.evicon-megaphone-2 {
+  &:before {
+    content: $evicon-megaphone-2; 
+  }
+}
+.evicon-finish {
+  &:before {
+    content: $evicon-finish; 
+  }
+}
+.evicon-reprocess {
+  &:before {
+    content: $evicon-reprocess; 
+  }
+}
+.evicon-file-check {
+  &:before {
+    content: $evicon-file-check; 
+  }
+}
+.evicon-papers {
+  &:before {
+    content: $evicon-papers; 
+  }
+}
+.evicon-magnifying-glass-check {
+  &:before {
+    content: $evicon-magnifying-glass-check; 
+  }
+}
+.evicon-magnifying-glass-eye {
+  &:before {
+    content: $evicon-magnifying-glass-eye; 
+  }
+}
+.evicon-judge-hammer {
+  &:before {
+    content: $evicon-judge-hammer; 
+  }
+}
+.evicon-book-libra {
+  &:before {
+    content: $evicon-book-libra; 
+  }
+}
+.evicon-binocular {
+  &:before {
+    content: $evicon-binocular; 
+  }
+}
+.evicon-shield-exclamation {
+  &:before {
+    content: $evicon-shield-exclamation; 
+  }
+}
+.evicon-woman {
+  &:before {
+    content: $evicon-woman; 
+  }
+}
+.evicon-plane-paper-attachment {
+  &:before {
+    content: $evicon-plane-paper-attachment; 
+  }
+}
+.evicon-arrows {
+  &:before {
+    content: $evicon-arrows; 
+  }
+}
+.evicon-copy {
+  &:before {
+    content: $evicon-copy; 
+  }
+}
+.evicon-devices {
+  &:before {
+    content: $evicon-devices; 
+  }
+}
+.evicon-flip-to-back {
+  &:before {
+    content: $evicon-flip-to-back; 
+  }
+}
+.evicon-flip {
+  &:before {
+    content: $evicon-flip; 
+  }
+}
+.evicon-fullscreen-exit {
+  &:before {
+    content: $evicon-fullscreen-exit; 
+  }
+}
+.evicon-fullscreen {
+  &:before {
+    content: $evicon-fullscreen; 
+  }
+}
+.evicon-google-earth {
+  &:before {
+    content: $evicon-google-earth; 
+  }
+}
+.evicon-link {
+  &:before {
+    content: $evicon-link; 
+  }
+}
+.evicon-lock-lock {
+  &:before {
+    content: $evicon-lock-lock; 
+  }
+}
+.evicon-lock-open {
+  &:before {
+    content: $evicon-lock-open; 
+  }
+}
+.evicon-minus-circle {
+  &:before {
+    content: $evicon-minus-circle; 
+  }
+}
+.evicon-mood {
+  &:before {
+    content: $evicon-mood; 
+  }
+}
+.evicon-rotate-right {
+  &:before {
+    content: $evicon-rotate-right; 
+  }
+}
+.evicon-sign-in {
+  &:before {
+    content: $evicon-sign-in; 
+  }
+}
+.evicon-sort-amount-asc {
+  &:before {
+    content: $evicon-sort-amount-asc; 
+  }
+}
+.evicon-swap-vertical {
+  &:before {
+    content: $evicon-swap-vertical; 
+  }
+}
+.evicon-swap {
+  &:before {
+    content: $evicon-swap; 
+  }
+}
+.evicon-zoom-in {
+  &:before {
+    content: $evicon-zoom-in; 
+  }
+}
+.evicon-zoom-out {
+  &:before {
+    content: $evicon-zoom-out; 
+  }
+}
+.evicon-deadline-auto {
+  &:before {
+    content: $evicon-deadline-auto; 
+  }
+}
+.evicon-deadline {
+  &:before {
+    content: $evicon-deadline; 
+  }
+}
+.evicon-bell-z {
+  &:before {
+    content: $evicon-bell-z; 
+  }
+}
+.evicon-correspondence-decision {
+  &:before {
+    content: $evicon-correspondence-decision; 
+  }
+}
+.evicon-hd {
+  &:before {
+    content: $evicon-hd; 
+  }
+}
+.evicon-graph-bar {
+  &:before {
+    content: $evicon-graph-bar; 
+  }
+}
+.evicon-graph {
+  &:before {
+    content: $evicon-graph; 
+  }
+}
+.evicon-exclamation-triangle {
+  &:before {
+    content: $evicon-exclamation-triangle; 
+  }
+}
+.evicon-checkbox-active {
+  &:before {
+    content: $evicon-checkbox-active; 
+  }
+}
+.evicon-checkbox-inactive {
+  &:before {
+    content: $evicon-checkbox-inactive; 
+  }
+}
+.evicon-circle-check {
+  &:before {
+    content: $evicon-circle-check; 
+  }
+}
+.evicon-delegate {
+  &:before {
+    content: $evicon-delegate; 
+  }
+}
+.evicon-key {
+  &:before {
+    content: $evicon-key; 
+  }
+}
+.evicon-radio-active {
+  &:before {
+    content: $evicon-radio-active; 
+  }
+}
+.evicon-radio-inactive {
+  &:before {
+    content: $evicon-radio-inactive; 
+  }
+}
+.evicon-twinbell-alert {
+  &:before {
+    content: $evicon-twinbell-alert; 
+  }
+}
+.evicon-twinbell {
+  &:before {
+    content: $evicon-twinbell; 
+  }
+}
+.evicon-committee {
+  &:before {
+    content: $evicon-committee; 
+  }
+}
+.evicon-office-box {
+  &:before {
+    content: $evicon-office-box; 
+  }
+}
+.evicon-abbyy-fr {
+  &:before {
+    content: $evicon-abbyy-fr; 
+  }
+}
+.evicon-lang {
+  &:before {
+    content: $evicon-lang; 
+  }
+}
+.evicon-accept {
+  &:before {
+    content: $evicon-accept; 
+  }
+}
+.evicon-pop-up {
+  &:before {
+    content: $evicon-pop-up; 
+  }
+}
+.evicon-pencil-ruler {
+  &:before {
+    content: $evicon-pencil-ruler; 
+  }
+}
+.evicon-eye-stripped {
+  &:before {
+    content: $evicon-eye-stripped; 
+  }
+}
+.evicon-envelope-out {
+  &:before {
+    content: $evicon-envelope-out; 
+  }
+}
+.evicon-envelope-in {
+  &:before {
+    content: $evicon-envelope-in; 
+  }
+}
+.evicon-crop {
+  &:before {
+    content: $evicon-crop; 
+  }
+}
+.evicon-door {
+  &:before {
+    content: $evicon-door; 
+  }
+}
+.evicon-archive {
+  &:before {
+    content: $evicon-archive; 
+  }
+}
+.evicon-branch {
+  &:before {
+    content: $evicon-branch; 
+  }
+}
+.evicon-file-audio {
+  &:before {
+    content: $evicon-file-audio; 
+  }
+}
+.evicon-file-email {
+  &:before {
+    content: $evicon-file-email; 
+  }
+}
+.evicon-file-excel {
+  &:before {
+    content: $evicon-file-excel; 
+  }
+}
+.evicon-file-generic {
+  &:before {
+    content: $evicon-file-generic; 
+  }
+}
+.evicon-file-image {
+  &:before {
+    content: $evicon-file-image; 
+  }
+}
+.evicon-file-pdf {
+  &:before {
+    content: $evicon-file-pdf; 
+  }
+}
+.evicon-file-powerpoint {
+  &:before {
+    content: $evicon-file-powerpoint; 
+  }
+}
+.evicon-file-txt {
+  &:before {
+    content: $evicon-file-txt; 
+  }
+}
+.evicon-file-video {
+  &:before {
+    content: $evicon-file-video; 
+  }
+}
+.evicon-file-web {
+  &:before {
+    content: $evicon-file-web; 
+  }
+}
+.evicon-file-word {
+  &:before {
+    content: $evicon-file-word; 
+  }
+}
+.evicon-file-zip {
+  &:before {
+    content: $evicon-file-zip; 
+  }
+}
+.evicon-revert {
+  &:before {
+    content: $evicon-revert; 
+  }
+}
+.evicon-signature-check {
+  &:before {
+    content: $evicon-signature-check; 
+  }
+}
+.evicon-signature {
+  &:before {
+    content: $evicon-signature; 
+  }
+}
+.evicon-sort {
+  &:before {
+    content: $evicon-sort; 
+  }
+}
+.evicon-person-desk {
+  &:before {
+    content: $evicon-person-desk; 
+  }
+}
+.evicon-card-chain {
+  &:before {
+    content: $evicon-card-chain; 
+  }
+}
+.evicon-connect {
+  &:before {
+    content: $evicon-connect; 
+  }
+}
+.evicon-envelope-chain {
+  &:before {
+    content: $evicon-envelope-chain; 
+  }
+}
+.evicon-i-stripped {
+  &:before {
+    content: $evicon-i-stripped; 
+  }
+}
+.evicon-i {
+  &:before {
+    content: $evicon-i; 
+  }
+}
+.evicon-paperclip {
+  &:before {
+    content: $evicon-paperclip; 
+  }
+}
+.evicon-clock-2 {
+  &:before {
+    content: $evicon-clock-2; 
+  }
+}
+.evicon-bell-stripped {
+  &:before {
+    content: $evicon-bell-stripped; 
+  }
+}
+.evicon-database {
+  &:before {
+    content: $evicon-database; 
+  }
+}
+.evicon-download-2 {
+  &:before {
+    content: $evicon-download-2; 
+  }
+}
+.evicon-folder-plus {
+  &:before {
+    content: $evicon-folder-plus; 
+  }
+}
+.evicon-handshake {
+  &:before {
+    content: $evicon-handshake; 
+  }
+}
+.evicon-lamp {
+  &:before {
+    content: $evicon-lamp; 
+  }
+}
+.evicon-person-employee-two {
+  &:before {
+    content: $evicon-person-employee-two; 
+  }
+}
+.evicon-person-three-sit-plus {
+  &:before {
+    content: $evicon-person-three-sit-plus; 
+  }
+}
+.evicon-plane-paper-stripped {
+  &:before {
+    content: $evicon-plane-paper-stripped; 
+  }
+}
+.evicon-search-cog {
+  &:before {
+    content: $evicon-search-cog; 
+  }
+}
+.evicon-star-stripped {
+  &:before {
+    content: $evicon-star-stripped; 
+  }
+}
+.evicon-vcard-plus {
+  &:before {
+    content: $evicon-vcard-plus; 
+  }
+}
+.evicon-box-draft {
+  &:before {
+    content: $evicon-box-draft; 
+  }
+}
+.evicon-box-outbox {
+  &:before {
+    content: $evicon-box-outbox; 
+  }
+}
+.evicon-crown {
+  &:before {
+    content: $evicon-crown; 
+  }
+}
+.evicon-exclamation-circled {
+  &:before {
+    content: $evicon-exclamation-circled; 
+  }
+}
+.evicon-flag {
+  &:before {
+    content: $evicon-flag; 
+  }
+}
+.evicon-folder-options {
+  &:before {
+    content: $evicon-folder-options; 
+  }
+}
+.evicon-grid {
+  &:before {
+    content: $evicon-grid; 
+  }
+}
+.evicon-late {
+  &:before {
+    content: $evicon-late; 
+  }
+}
+.evicon-star-empty {
+  &:before {
+    content: $evicon-star-empty; 
+  }
+}
+.evicon-star-filled {
+  &:before {
+    content: $evicon-star-filled; 
+  }
+}
+.evicon-forward {
+  &:before {
+    content: $evicon-forward; 
+  }
+}
+.evicon-reply {
+  &:before {
+    content: $evicon-reply; 
+  }
+}
+.evicon-card-square {
+  &:before {
+    content: $evicon-card-square; 
+  }
+}
+.evicon-save {
+  &:before {
+    content: $evicon-save; 
+  }
+}
+.evicon-building-gov {
+  &:before {
+    content: $evicon-building-gov; 
+  }
+}
+.evicon-chain {
+  &:before {
+    content: $evicon-chain; 
+  }
+}
+.evicon-correspondence-incoming-special {
+  &:before {
+    content: $evicon-correspondence-incoming-special; 
+  }
+}
+.evicon-correspondence-incoming {
+  &:before {
+    content: $evicon-correspondence-incoming; 
+  }
+}
+.evicon-correspondence-internal {
+  &:before {
+    content: $evicon-correspondence-internal; 
+  }
+}
+.evicon-correspondence-outgoing-special {
+  &:before {
+    content: $evicon-correspondence-outgoing-special; 
+  }
+}
+.evicon-correspondence-outgoing {
+  &:before {
+    content: $evicon-correspondence-outgoing; 
+  }
+}
+.evicon-embassy {
+  &:before {
+    content: $evicon-embassy; 
+  }
+}
+.evicon-eye-cc {
+  &:before {
+    content: $evicon-eye-cc; 
+  }
+}
+.evicon-eye-check {
+  &:before {
+    content: $evicon-eye-check; 
+  }
+}
+.evicon-eye {
+  &:before {
+    content: $evicon-eye; 
+  }
+}
+.evicon-forward-head {
+  &:before {
+    content: $evicon-forward-head; 
+  }
+}
+.evicon-lightning {
+  &:before {
+    content: $evicon-lightning; 
+  }
+}
+.evicon-merge {
+  &:before {
+    content: $evicon-merge; 
+  }
+}
+.evicon-print {
+  &:before {
+    content: $evicon-print; 
+  }
+}
+.evicon-qr {
+  &:before {
+    content: $evicon-qr; 
+  }
+}
+.evicon-utensil {
+  &:before {
+    content: $evicon-utensil; 
+  }
+}
+.evicon-bed-double {
+  &:before {
+    content: $evicon-bed-double; 
+  }
+}
+.evicon-bed {
+  &:before {
+    content: $evicon-bed; 
+  }
+}
+.evicon-box {
+  &:before {
+    content: $evicon-box; 
+  }
+}
+.evicon-building-duo {
+  &:before {
+    content: $evicon-building-duo; 
+  }
+}
+.evicon-building-trio {
+  &:before {
+    content: $evicon-building-trio; 
+  }
+}
+.evicon-calendar-add {
+  &:before {
+    content: $evicon-calendar-add; 
+  }
+}
+.evicon-car-normal {
+  &:before {
+    content: $evicon-car-normal; 
+  }
+}
+.evicon-car-royal {
+  &:before {
+    content: $evicon-car-royal; 
+  }
+}
+.evicon-car-side {
+  &:before {
+    content: $evicon-car-side; 
+  }
+}
+.evicon-cog {
+  &:before {
+    content: $evicon-cog; 
+  }
+}
+.evicon-dashboard {
+  &:before {
+    content: $evicon-dashboard; 
+  }
+}
+.evicon-diagram {
+  &:before {
+    content: $evicon-diagram; 
+  }
+}
+.evicon-folder {
+  &:before {
+    content: $evicon-folder; 
+  }
+}
+.evicon-h {
+  &:before {
+    content: $evicon-h; 
+  }
+}
+.evicon-hierarchy {
+  &:before {
+    content: $evicon-hierarchy; 
+  }
+}
+.evicon-history {
+  &:before {
+    content: $evicon-history; 
+  }
+}
+.evicon-hourglass {
+  &:before {
+    content: $evicon-hourglass; 
+  }
+}
+.evicon-house-big {
+  &:before {
+    content: $evicon-house-big; 
+  }
+}
+.evicon-house-small {
+  &:before {
+    content: $evicon-house-small; 
+  }
+}
+.evicon-i-circle {
+  &:before {
+    content: $evicon-i-circle; 
+  }
+}
+.evicon-inspect {
+  &:before {
+    content: $evicon-inspect; 
+  }
+}
+.evicon-lock {
+  &:before {
+    content: $evicon-lock; 
+  }
+}
+.evicon-megaphone {
+  &:before {
+    content: $evicon-megaphone; 
+  }
+}
+.evicon-envelope-plus {
+  &:before {
+    content: $evicon-envelope-plus; 
+  }
+}
+.evicon-minus {
+  &:before {
+    content: $evicon-minus; 
+  }
+}
+.evicon-money {
+  &:before {
+    content: $evicon-money; 
+  }
+}
+.evicon-notes {
+  &:before {
+    content: $evicon-notes; 
+  }
+}
+.evicon-passport {
+  &:before {
+    content: $evicon-passport; 
+  }
+}
+.evicon-person-admin {
+  &:before {
+    content: $evicon-person-admin; 
+  }
+}
+.evicon-person-employee {
+  &:before {
+    content: $evicon-person-employee; 
+  }
+}
+.evicon-person-gov {
+  &:before {
+    content: $evicon-person-gov; 
+  }
+}
+.evicon-person-org {
+  &:before {
+    content: $evicon-person-org; 
+  }
+}
+.evicon-pistol {
+  &:before {
+    content: $evicon-pistol; 
+  }
+}
+.evicon-plane-bottom-right {
+  &:before {
+    content: $evicon-plane-bottom-right; 
+  }
+}
+.evicon-plane-left {
+  &:before {
+    content: $evicon-plane-left; 
+  }
+}
+.evicon-plane-right {
+  &:before {
+    content: $evicon-plane-right; 
+  }
+}
+.evicon-plane-top-left {
+  &:before {
+    content: $evicon-plane-top-left; 
+  }
+}
+.evicon-question {
+  &:before {
+    content: $evicon-question; 
+  }
+}
+.evicon-scanner {
+  &:before {
+    content: $evicon-scanner; 
+  }
+}
+.evicon-ship {
+  &:before {
+    content: $evicon-ship; 
+  }
+}
+.evicon-signal {
+  &:before {
+    content: $evicon-signal; 
+  }
+}
+.evicon-sit {
+  &:before {
+    content: $evicon-sit; 
+  }
+}
+.evicon-stamp {
+  &:before {
+    content: $evicon-stamp; 
+  }
+}
+.evicon-suitcase {
+  &:before {
+    content: $evicon-suitcase; 
+  }
+}
+.evicon-sync {
+  &:before {
+    content: $evicon-sync; 
+  }
+}
+.evicon-timer {
+  &:before {
+    content: $evicon-timer; 
+  }
+}
+.evicon-train {
+  &:before {
+    content: $evicon-train; 
+  }
+}
+.evicon-triangle-up {
+  &:before {
+    content: $evicon-triangle-up; 
+  }
+}
+.evicon-write {
+  &:before {
+    content: $evicon-write; 
+  }
+}
+.evicon-checklist {
+  &:before {
+    content: $evicon-checklist; 
+  }
+}
+.evicon-pencil {
+  &:before {
+    content: $evicon-pencil; 
+  }
+}
+.evicon-list-plus {
+  &:before {
+    content: $evicon-list-plus; 
+  }
+}
+.evicon-list-reorder {
+  &:before {
+    content: $evicon-list-reorder; 
+  }
+}
+.evicon-list {
+  &:before {
+    content: $evicon-list; 
+  }
+}
+.evicon-location {
+  &:before {
+    content: $evicon-location; 
+  }
+}
+.evicon-mobile-phone {
+  &:before {
+    content: $evicon-mobile-phone; 
+  }
+}
+.evicon-open-tip {
+  &:before {
+    content: $evicon-open-tip; 
+  }
+}
+.evicon-open {
+  &:before {
+    content: $evicon-open; 
+  }
+}
+.evicon-person-check {
+  &:before {
+    content: $evicon-person-check; 
+  }
+}
+.evicon-person-plus {
+  &:before {
+    content: $evicon-person-plus; 
+  }
+}
+.evicon-person-three-plus {
+  &:before {
+    content: $evicon-person-three-plus; 
+  }
+}
+.evicon-person-three-sit {
+  &:before {
+    content: $evicon-person-three-sit; 
+  }
+}
+.evicon-person-three-stand {
+  &:before {
+    content: $evicon-person-three-stand; 
+  }
+}
+.evicon-person-three {
+  &:before {
+    content: $evicon-person-three; 
+  }
+}
+.evicon-person-two {
+  &:before {
+    content: $evicon-person-two; 
+  }
+}
+.evicon-person {
+  &:before {
+    content: $evicon-person; 
+  }
+}
+.evicon-phone {
+  &:before {
+    content: $evicon-phone; 
+  }
+}
+.evicon-pin-slanted {
+  &:before {
+    content: $evicon-pin-slanted; 
+  }
+}
+.evicon-pin {
+  &:before {
+    content: $evicon-pin; 
+  }
+}
+.evicon-plane-top-right {
+  &:before {
+    content: $evicon-plane-top-right; 
+  }
+}
+.evicon-plane-bottom-left {
+  &:before {
+    content: $evicon-plane-bottom-left; 
+  }
+}
+.evicon-plane-paper {
+  &:before {
+    content: $evicon-plane-paper; 
+  }
+}
+.evicon-plus {
+  &:before {
+    content: $evicon-plus; 
+  }
+}
+.evicon-present-box {
+  &:before {
+    content: $evicon-present-box; 
+  }
+}
+.evicon-questionnaire {
+  &:before {
+    content: $evicon-questionnaire; 
+  }
+}
+.evicon-search {
+  &:before {
+    content: $evicon-search; 
+  }
+}
+.evicon-sms {
+  &:before {
+    content: $evicon-sms; 
+  }
+}
+.evicon-template {
+  &:before {
+    content: $evicon-template; 
+  }
+}
+.evicon-trash {
+  &:before {
+    content: $evicon-trash; 
+  }
+}
+.evicon-tree-collapse {
+  &:before {
+    content: $evicon-tree-collapse; 
+  }
+}
+.evicon-tree-expand {
+  &:before {
+    content: $evicon-tree-expand; 
+  }
+}
+.evicon-triangle-down {
+  &:before {
+    content: $evicon-triangle-down; 
+  }
+}
+.evicon-triangle-left {
+  &:before {
+    content: $evicon-triangle-left; 
+  }
+}
+.evicon-triangle-right {
+  &:before {
+    content: $evicon-triangle-right; 
+  }
+}
+.evicon-uncheck-all {
+  &:before {
+    content: $evicon-uncheck-all; 
+  }
+}
+.evicon-upload {
+  &:before {
+    content: $evicon-upload; 
+  }
+}
+.evicon-vcard-two {
+  &:before {
+    content: $evicon-vcard-two; 
+  }
+}
+.evicon-vcard {
+  &:before {
+    content: $evicon-vcard; 
+  }
+}
+.evicon-car-cheap {
+  &:before {
+    content: $evicon-car-cheap; 
+  }
+}
+.evicon-web {
+  &:before {
+    content: $evicon-web; 
+  }
+}
+.evicon-banquete {
+  &:before {
+    content: $evicon-banquete; 
+  }
+}
+.evicon-bell {
+  &:before {
+    content: $evicon-bell; 
+  }
+}
+.evicon-board {
+  &:before {
+    content: $evicon-board; 
+  }
+}
+.evicon-booklet {
+  &:before {
+    content: $evicon-booklet; 
+  }
+}
+.evicon-calendar {
+  &:before {
+    content: $evicon-calendar; 
+  }
+}
+.evicon-cards {
+  &:before {
+    content: $evicon-cards; 
+  }
+}
+.evicon-certificate {
+  &:before {
+    content: $evicon-certificate; 
+  }
+}
+.evicon-chat {
+  &:before {
+    content: $evicon-chat; 
+  }
+}
+.evicon-check-all {
+  &:before {
+    content: $evicon-check-all; 
+  }
+}
+.evicon-check {
+  &:before {
+    content: $evicon-check; 
+  }
+}
+.evicon-chevron-down {
+  &:before {
+    content: $evicon-chevron-down; 
+  }
+}
+.evicon-chevron-left {
+  &:before {
+    content: $evicon-chevron-left; 
+  }
+}
+.evicon-chevron-right {
+  &:before {
+    content: $evicon-chevron-right; 
+  }
+}
+.evicon-chevron-up {
+  &:before {
+    content: $evicon-chevron-up; 
+  }
+}
+.evicon-circle-chevron-down {
+  &:before {
+    content: $evicon-circle-chevron-down; 
+  }
+}
+.evicon-circle {
+  &:before {
+    content: $evicon-circle; 
+  }
+}
+.evicon-clock {
+  &:before {
+    content: $evicon-clock; 
+  }
+}
+.evicon-columns-reset {
+  &:before {
+    content: $evicon-columns-reset; 
+  }
+}
+.evicon-columns {
+  &:before {
+    content: $evicon-columns; 
+  }
+}
+.evicon-cross {
+  &:before {
+    content: $evicon-cross; 
+  }
+}
+.evicon-dots {
+  &:before {
+    content: $evicon-dots; 
+  }
+}
+.evicon-download {
+  &:before {
+    content: $evicon-download; 
+  }
+}
+.evicon-email {
+  &:before {
+    content: $evicon-email; 
+  }
+}
+.evicon-envelope-back {
+  &:before {
+    content: $evicon-envelope-back; 
+  }
+}
+.evicon-envelope-front {
+  &:before {
+    content: $evicon-envelope-front; 
+  }
+}
+.evicon-envelope-opened {
+  &:before {
+    content: $evicon-envelope-opened; 
+  }
+}
+.evicon-exclamation {
+  &:before {
+    content: $evicon-exclamation; 
+  }
+}
+.evicon-export {
+  &:before {
+    content: $evicon-export; 
+  }
+}
+.evicon-faqs {
+  &:before {
+    content: $evicon-faqs; 
+  }
+}
+.evicon-filter-cross {
+  &:before {
+    content: $evicon-filter-cross; 
+  }
+}
+.evicon-filter {
+  &:before {
+    content: $evicon-filter; 
+  }
+}
+.evicon-globe {
+  &:before {
+    content: $evicon-globe; 
+  }
+}
+.evicon-hamburger {
+  &:before {
+    content: $evicon-hamburger; 
+  }
+}
+.evicon-hand {
+  &:before {
+    content: $evicon-hand; 
+  }
+}
+.evicon-import {
+  &:before {
+    content: $evicon-import; 
+  }
+}
+.evicon-language-ar {
+  &:before {
+    content: $evicon-language-ar; 
+  }
+}
+.evicon-language-en {
+  &:before {
+    content: $evicon-language-en; 
+  }
+}
+

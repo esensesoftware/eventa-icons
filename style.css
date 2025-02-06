@@ -1,0 +1,1854 @@
+@font-face {
+  font-family: 'eventa-icons';
+  src:  url('fonts/eventa-icons.eot?lf2ifa');
+  src:  url('fonts/eventa-icons.eot?lf2ifa#iefix') format('embedded-opentype'),
+    url('fonts/eventa-icons.ttf?lf2ifa') format('truetype'),
+    url('fonts/eventa-icons.woff?lf2ifa') format('woff'),
+    url('fonts/eventa-icons.svg?lf2ifa#eventa-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="evicon-"], [class*=" evicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'eventa-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.evicon-waiting-approval:before {
+  content: "\eb60";
+}
+.evicon-chatbot:before {
+  content: "\eb5f";
+}
+.evicon-tune-2:before {
+  content: "\eb5e";
+}
+.evicon-dollar:before {
+  content: "\eb59";
+}
+.evicon-groups:before {
+  content: "\eb5a";
+}
+.evicon-night-shelter:before {
+  content: "\eb5b";
+}
+.evicon-oil-barrel:before {
+  content: "\eb5c";
+}
+.evicon-work:before {
+  content: "\eb5d";
+}
+.evicon-right-panel-close:before {
+  content: "\eb57";
+}
+.evicon-right-panel-open:before {
+  content: "\eb58";
+}
+.evicon-outline-questionnaire-2:before {
+  content: "\eb54";
+}
+.evicon-questionnaire-2-cross:before {
+  content: "\eb55";
+}
+.evicon-questionnaire-2:before {
+  content: "\eb56";
+}
+.evicon-folder-check:before {
+  content: "\eb53";
+}
+.evicon-new-tab:before {
+  content: "\eb52";
+}
+.evicon-history-reversed:before {
+  content: "\eb51";
+}
+.evicon-Vote-Results:before {
+  content: "\eb50";
+}
+.evicon-Archive:before {
+  content: "\eb47";
+}
+.evicon-CC:before {
+  content: "\eb48";
+}
+.evicon-Print-attachment:before {
+  content: "\eb49";
+}
+.evicon-Print-Card:before {
+  content: "\eb4a";
+}
+.evicon-Print-Qr:before {
+  content: "\eb4b";
+}
+.evicon-Recall:before {
+  content: "\eb4c";
+}
+.evicon-Screenshot:before {
+  content: "\eb4d";
+}
+.evicon-Send-attachment:before {
+  content: "\eb4e";
+}
+.evicon-Send-correspondences:before {
+  content: "\eb4f";
+}
+.evicon-Square:before {
+  content: "\eb46";
+}
+.evicon-calendar-check:before {
+  content: "\eb44";
+}
+.evicon-calendar-cross:before {
+  content: "\eb45";
+}
+.evicon-card-check:before {
+  content: "\eb43";
+}
+.evicon-sort-magic-up:before {
+  content: "\eb42";
+}
+.evicon-megaphone-stripped:before {
+  content: "\eb41";
+}
+.evicon-swipe-pages:before {
+  content: "\eb40";
+}
+.evicon-logout:before {
+  content: "\eb3f";
+}
+.evicon-user-bold:before {
+  content: "\eb01";
+}
+.evicon-user-outline:before {
+  content: "\eb02";
+}
+.evicon-activity-bold:before {
+  content: "\eb03";
+}
+.evicon-activity-outline:before {
+  content: "\eb04";
+}
+.evicon-add-square-outline:before {
+  content: "\eb05";
+}
+.evicon-book-square-bold:before {
+  content: "\eb06";
+}
+.evicon-book-square-outline:before {
+  content: "\eb07";
+}
+.evicon-briefcase-bold:before {
+  content: "\eb08";
+}
+.evicon-briefcase-outline:before {
+  content: "\eb09";
+}
+.evicon-brush-outline:before {
+  content: "\eb0a";
+}
+.evicon-brush-square-outline:before {
+  content: "\eb0b";
+}
+.evicon-calendar-2-oultine:before {
+  content: "\eb0c";
+}
+.evicon-calendar-bold:before {
+  content: "\eb0d";
+}
+.evicon-calendar-outline:before {
+  content: "\eb0e";
+}
+.evicon-chart-bold:before {
+  content: "\eb0f";
+}
+.evicon-chart-outline:before {
+  content: "\eb10";
+}
+.evicon-clock-oultline:before {
+  content: "\eb11";
+}
+.evicon-cross1:before {
+  content: "\eb12";
+}
+.evicon-delete-outline:before {
+  content: "\eb13";
+}
+.evicon-direct-bold:before {
+  content: "\eb14";
+}
+.evicon-document-text-outline:before {
+  content: "\eb15";
+}
+.evicon-edit-outline:before {
+  content: "\eb16";
+}
+.evicon-edit-square-bold:before {
+  content: "\eb17";
+}
+.evicon-element-4-bold:before {
+  content: "\eb18";
+}
+.evicon-element-4-outline:before {
+  content: "\eb19";
+}
+.evicon-eraser-outline:before {
+  content: "\eb1a";
+}
+.evicon-eye-bold:before {
+  content: "\eb1b";
+}
+.evicon-filter-outline:before {
+  content: "\eb1c";
+}
+.evicon-gallery-add-outline:before {
+  content: "\eb1d";
+}
+.evicon-heart-bold:before {
+  content: "\eb1e";
+}
+.evicon-heart-outline:before {
+  content: "\eb1f";
+}
+.evicon-info-circle-outline:before {
+  content: "\eb20";
+}
+.evicon-location-outline:before {
+  content: "\eb21";
+}
+.evicon-lock-outline:before {
+  content: "\eb22";
+}
+.evicon-mapp-chevron-down:before {
+  content: "\eb23";
+}
+.evicon-mapp-chevron-left:before {
+  content: "\eb24";
+}
+.evicon-mapp-chevron-right:before {
+  content: "\eb25";
+}
+.evicon-mapp-chevron-up:before {
+  content: "\eb26";
+}
+.evicon-maximize-outline:before {
+  content: "\eb27";
+}
+.evicon-message-add-outline:before {
+  content: "\eb28";
+}
+.evicon-more-square-outline:before {
+  content: "\eb29";
+}
+.evicon-notification-outline:before {
+  content: "\eb2a";
+}
+.evicon-paper-download-outline:before {
+  content: "\eb2b";
+}
+.evicon-path-outline:before {
+  content: "\eb2c";
+}
+.evicon-pen-outline:before {
+  content: "\eb2d";
+}
+.evicon-play-bold:before {
+  content: "\eb2e";
+}
+.evicon-quote-up-square-outline:before {
+  content: "\eb2f";
+}
+.evicon-refresh-2-outline:before {
+  content: "\eb30";
+}
+.evicon-refresh-outline:before {
+  content: "\eb31";
+}
+.evicon-rotate-right-outline:before {
+  content: "\eb32";
+}
+.evicon-search-outline:before {
+  content: "\eb33";
+}
+.evicon-search-status-bold:before {
+  content: "\eb34";
+}
+.evicon-setting-bold:before {
+  content: "\eb35";
+}
+.evicon-setting-outline:before {
+  content: "\eb36";
+}
+.evicon-task-square-bold:before {
+  content: "\eb37";
+}
+.evicon-task-square-outline:before {
+  content: "\eb38";
+}
+.evicon-text-block-outline:before {
+  content: "\eb39";
+}
+.evicon-tick-square-outline:before {
+  content: "\eb3a";
+}
+.evicon-timer-outline:before {
+  content: "\eb3b";
+}
+.evicon-undo-outline:before {
+  content: "\eb3c";
+}
+.evicon-upload-outline:before {
+  content: "\eb3d";
+}
+.evicon-voice-square-outline:before {
+  content: "\eb3e";
+}
+.evicon-stamp-outline:before {
+  content: "\eaff";
+}
+.evicon-task-recurring:before {
+  content: "\eb00";
+}
+.evicon-window:before {
+  content: "\eafd";
+}
+.evicon-berry-logo:before {
+  content: "\eafe";
+}
+.evicon-circle-cross:before {
+  content: "\eaf9";
+}
+.evicon-doc-center:before {
+  content: "\eafa";
+}
+.evicon-palette:before {
+  content: "\eafb";
+}
+.evicon-plus-circle:before {
+  content: "\eafc";
+}
+.evicon-annote-save:before {
+  content: "\eaf3";
+}
+.evicon-card-square-employee:before {
+  content: "\eaf4";
+}
+.evicon-envelope-front-edge:before {
+  content: "\eaf5";
+}
+.evicon-paperclip-edge:before {
+  content: "\eaf6";
+}
+.evicon-sign-pen:before {
+  content: "\eaf7";
+}
+.evicon-tune:before {
+  content: "\eaf8";
+}
+.evicon-file-generic-plus-outline:before {
+  content: "\eaf0";
+}
+.evicon-file-generic-plus:before {
+  content: "\eaf1";
+}
+.evicon-file-txt-outline:before {
+  content: "\eaf2";
+}
+.evicon-link-plus:before {
+  content: "\eaee";
+}
+.evicon-signature-rotated:before {
+  content: "\eaef";
+}
+.evicon-face-id:before {
+  content: "\eaeb";
+}
+.evicon-fingerprint:before {
+  content: "\eaed";
+}
+.evicon-face-recognition:before {
+  content: "\eaea";
+}
+.evicon-image-out:before {
+  content: "\eaec";
+}
+.evicon-handshake-cross:before {
+  content: "\eae9";
+}
+.evicon-back-left-filled:before {
+  content: "\eae7";
+}
+.evicon-back-left-outline:before {
+  content: "\eae8";
+}
+.evicon-certificate-2-stripped:before {
+  content: "\eae6";
+}
+.evicon-text-align-center:before {
+  content: "\eae3";
+}
+.evicon-text-align-right:before {
+  content: "\eae4";
+}
+.evicon-text-align-left:before {
+  content: "\eae5";
+}
+.evicon-additional-feature:before {
+  content: "\eae1";
+}
+.evicon-annote:before {
+  content: "\eade";
+}
+.evicon-chat-tick-double-2:before {
+  content: "\eadf";
+}
+.evicon-ms-exchange:before {
+  content: "\eae0";
+}
+.evicon-dashboard-complex:before {
+  content: "\eadd";
+}
+.evicon-back-right:before {
+  content: "\e97e";
+}
+.evicon-underline:before {
+  content: "\eada";
+}
+.evicon-italic:before {
+  content: "\eadb";
+}
+.evicon-bold:before {
+  content: "\eadc";
+}
+.evicon-shirt-tie:before {
+  content: "\ead7";
+}
+.evicon-person-three-sit-clock:before {
+  content: "\ead8";
+}
+.evicon-calendar-clock:before {
+  content: "\ead9";
+}
+.evicon-pie-chart-0:before {
+  content: "\eacc";
+}
+.evicon-lock-2-open:before {
+  content: "\eacd";
+}
+.evicon-lock-2:before {
+  content: "\eace";
+}
+.evicon-pie-chart-1:before {
+  content: "\eacf";
+}
+.evicon-pie-chart-2:before {
+  content: "\ead0";
+}
+.evicon-pie-chart-3:before {
+  content: "\ead1";
+}
+.evicon-pie-chart-4:before {
+  content: "\ead2";
+}
+.evicon-pie-chart-5:before {
+  content: "\ead3";
+}
+.evicon-pie-chart-6:before {
+  content: "\ead4";
+}
+.evicon-pie-chart-7:before {
+  content: "\ead5";
+}
+.evicon-pie-chart-8:before {
+  content: "\ead6";
+}
+.evicon-outline-archive:before {
+  content: "\eabf";
+}
+.evicon-outline-briefcase:before {
+  content: "\eac0";
+}
+.evicon-outline-calendar:before {
+  content: "\eac1";
+}
+.evicon-outline-checklist:before {
+  content: "\eac2";
+}
+.evicon-outline-cog:before {
+  content: "\eac3";
+}
+.evicon-outline-committee:before {
+  content: "\eac4";
+}
+.evicon-outline-dashboard:before {
+  content: "\eac5";
+}
+.evicon-outline-envelope-front:before {
+  content: "\eac6";
+}
+.evicon-outline-eraser:before {
+  content: "\eac7";
+}
+.evicon-outline-megaphone:before {
+  content: "\eac8";
+}
+.evicon-outline-person-employee:before {
+  content: "\eac9";
+}
+.evicon-outline-questionnaire:before {
+  content: "\eaca";
+}
+.evicon-outline-vcard-two:before {
+  content: "\eacb";
+}
+.evicon-outline-card-square:before {
+  content: "\eabd";
+}
+.evicon-outline-filter-2:before {
+  content: "\eabe";
+}
+.evicon-return-left:before {
+  content: "\eaba";
+}
+.evicon-return-right:before {
+  content: "\eabb";
+}
+.evicon-chain-cross:before {
+  content: "\eabc";
+}
+.evicon-coffee-1:before {
+  content: "\eab7";
+}
+.evicon-coffee-2:before {
+  content: "\eab8";
+}
+.evicon-tag:before {
+  content: "\eab9";
+}
+.evicon-checklist-plus:before {
+  content: "\eaa4";
+}
+.evicon-file-format-bmp:before {
+  content: "\eaa5";
+}
+.evicon-file-format-gif:before {
+  content: "\eaa6";
+}
+.evicon-file-format-heic:before {
+  content: "\eaa7";
+}
+.evicon-file-format-jpeg:before {
+  content: "\eaa8";
+}
+.evicon-file-format-jpg:before {
+  content: "\eaa9";
+}
+.evicon-file-format-png:before {
+  content: "\eaaa";
+}
+.evicon-file-format-tif:before {
+  content: "\eaab";
+}
+.evicon-file-format-tiff:before {
+  content: "\eaac";
+}
+.evicon-file-format-webp:before {
+  content: "\eaad";
+}
+.evicon-pencil-ruler-plus:before {
+  content: "\eaae";
+}
+.evicon-thickness-1:before {
+  content: "\eaaf";
+}
+.evicon-thickness-2:before {
+  content: "\eab0";
+}
+.evicon-thickness-3:before {
+  content: "\eab1";
+}
+.evicon-thickness-4:before {
+  content: "\eab2";
+}
+.evicon-thickness-6:before {
+  content: "\eab3";
+}
+.evicon-thickness-8:before {
+  content: "\eab4";
+}
+.evicon-thickness-10:before {
+  content: "\eab5";
+}
+.evicon-thickness-12:before {
+  content: "\eab6";
+}
+.evicon-outline-mic:before {
+  content: "\ea94";
+}
+.evicon-undo:before {
+  content: "\ea95";
+}
+.evicon-redo:before {
+  content: "\ea96";
+}
+.evicon-outline-undo:before {
+  content: "\ea97";
+}
+.evicon-outline-trash:before {
+  content: "\ea98";
+}
+.evicon-outline-signature:before {
+  content: "\ea99";
+}
+.evicon-outline-redo:before {
+  content: "\ea9a";
+}
+.evicon-outline-person-one-stand:before {
+  content: "\ea9b";
+}
+.evicon-outline-layers-3:before {
+  content: "\ea9c";
+}
+.evicon-outline-feather:before {
+  content: "\ea9d";
+}
+.evicon-outline-crayon:before {
+  content: "\ea9e";
+}
+.evicon-outline-certificate-2:before {
+  content: "\ea9f";
+}
+.evicon-house-2:before {
+  content: "\eaa0";
+}
+.evicon-fullscreen-exit-3:before {
+  content: "\eaa1";
+}
+.evicon-fullscreen-3:before {
+  content: "\eaa2";
+}
+.evicon-crayon:before {
+  content: "\eaa3";
+}
+.evicon-certificate-2:before {
+  content: "\ea92";
+}
+.evicon-question-circled:before {
+  content: "\ea93";
+}
+.evicon-e:before {
+  content: "\ea90";
+}
+.evicon-signature-save:before {
+  content: "\ea91";
+}
+.evicon-file-broken:before {
+  content: "\ea8c";
+}
+.evicon-file-cross:before {
+  content: "\ea8d";
+}
+.evicon-plus-square-multiple:before {
+  content: "\ea8e";
+}
+.evicon-plus-square:before {
+  content: "\ea8f";
+}
+.evicon-calendar-recurring:before {
+  content: "\ea89";
+}
+.evicon-file-generic-landscape:before {
+  content: "\ea8a";
+}
+.evicon-person-three-sit-recurring:before {
+  content: "\ea8b";
+}
+.evicon-calendar-edit:before {
+  content: "\ea85";
+}
+.evicon-misc:before {
+  content: "\ea86";
+}
+.evicon-restore-2:before {
+  content: "\ea87";
+}
+.evicon-restore:before {
+  content: "\ea88";
+}
+.evicon-plane-paper-employee-2:before {
+  content: "\ea81";
+}
+.evicon-plane-paper-employee:before {
+  content: "\ea82";
+}
+.evicon-plane-paper-person-2:before {
+  content: "\ea83";
+}
+.evicon-plane-paper-person:before {
+  content: "\ea84";
+}
+.evicon-fullscreen-2:before {
+  content: "\ea7c";
+}
+.evicon-fullscreen-exit-2:before {
+  content: "\ea7d";
+}
+.evicon-play-left-circle:before {
+  content: "\ea7e";
+}
+.evicon-play-right-circle:before {
+  content: "\ea7f";
+}
+.evicon-stop-circle:before {
+  content: "\ea80";
+}
+.evicon-pin-2:before {
+  content: "\ea78";
+}
+.evicon-pin-horizontal-2:before {
+  content: "\ea79";
+}
+.evicon-pin-horizontal:before {
+  content: "\ea7a";
+}
+.evicon-pin-slanted-2:before {
+  content: "\ea7b";
+}
+.evicon-eye-glasses-check:before {
+  content: "\ea72";
+}
+.evicon-eye-glasses-cross:before {
+  content: "\ea73";
+}
+.evicon-eye-glasses:before {
+  content: "\ea74";
+}
+.evicon-hourglass-3:before {
+  content: "\ea75";
+}
+.evicon-pencil-2:before {
+  content: "\ea76";
+}
+.evicon-trash-2:before {
+  content: "\ea77";
+}
+.evicon-clock-edit:before {
+  content: "\ea70";
+}
+.evicon-page-break:before {
+  content: "\ea71";
+}
+.evicon-paper-write-plain:before {
+  content: "\ea6e";
+}
+.evicon-paper-write:before {
+  content: "\ea6f";
+}
+.evicon-monitor:before {
+  content: "\ea6c";
+}
+.evicon-bookmark:before {
+  content: "\ea6d";
+}
+.evicon-file-audio-loading:before {
+  content: "\ea5f";
+}
+.evicon-file-email-loading:before {
+  content: "\ea60";
+}
+.evicon-file-excel-loading:before {
+  content: "\ea61";
+}
+.evicon-file-generic-loading:before {
+  content: "\ea62";
+}
+.evicon-file-image-loading:before {
+  content: "\ea63";
+}
+.evicon-file-pdf-loading:before {
+  content: "\ea64";
+}
+.evicon-file-powerpoint-loading:before {
+  content: "\ea65";
+}
+.evicon-file-txt-loading:before {
+  content: "\ea66";
+}
+.evicon-file-video-loading:before {
+  content: "\ea67";
+}
+.evicon-file-web-loading:before {
+  content: "\ea68";
+}
+.evicon-file-word-loading:before {
+  content: "\ea69";
+}
+.evicon-file-zip-loading:before {
+  content: "\ea6a";
+}
+.evicon-hourglass-2:before {
+  content: "\ea6b";
+}
+.evicon-briefcase:before {
+  content: "\ea58";
+}
+.evicon-desk-lamp:before {
+  content: "\ea59";
+}
+.evicon-id-card:before {
+  content: "\ea5a";
+}
+.evicon-layers-3:before {
+  content: "\ea5b";
+}
+.evicon-save-2:before {
+  content: "\ea5c";
+}
+.evicon-sign-paper:before {
+  content: "\ea5d";
+}
+.evicon-signature-2:before {
+  content: "\ea5e";
+}
+.evicon-idea:before {
+  content: "\ea4c";
+}
+.evicon-target:before {
+  content: "\ea4d";
+}
+.evicon-globe-2:before {
+  content: "\ea4e";
+}
+.evicon-line-graph:before {
+  content: "\ea4f";
+}
+.evicon-pen-write:before {
+  content: "\ea50";
+}
+.evicon-layers:before {
+  content: "\ea51";
+}
+.evicon-sidebar-collapse:before {
+  content: "\ea52";
+}
+.evicon-sidebar-open:before {
+  content: "\ea53";
+}
+.evicon-pen-tablet:before {
+  content: "\ea54";
+}
+.evicon-finish-3:before {
+  content: "\ea55";
+}
+.evicon-archive-2:before {
+  content: "\ea56";
+}
+.evicon-finish-2:before {
+  content: "\ea57";
+}
+.evicon-chat-tick:before {
+  content: "\ea4a";
+}
+.evicon-chat-tick-double:before {
+  content: "\ea4b";
+}
+.evicon-square-thin:before {
+  content: "\ea48";
+}
+.evicon-square-thin-double:before {
+  content: "\ea49";
+}
+.evicon-camera:before {
+  content: "\ea45";
+}
+.evicon-judge-hammer-2:before {
+  content: "\ea46";
+}
+.evicon-video-camera:before {
+  content: "\ea47";
+}
+.evicon-card-square-person:before {
+  content: "\ea42";
+}
+.evicon-pie-chart:before {
+  content: "\ea43";
+}
+.evicon-building-one:before {
+  content: "\ea44";
+}
+.evicon-vote:before {
+  content: "\ea3f";
+}
+.evicon-share-screen:before {
+  content: "\ea40";
+}
+.evicon-person-two-question:before {
+  content: "\ea41";
+}
+.evicon-person-one-stand:before {
+  content: "\ea3e";
+}
+.evicon-stop:before {
+  content: "\ea36";
+}
+.evicon-skip-right:before {
+  content: "\ea37";
+}
+.evicon-skip-left:before {
+  content: "\ea38";
+}
+.evicon-play-right:before {
+  content: "\ea39";
+}
+.evicon-play-left:before {
+  content: "\ea3a";
+}
+.evicon-person-two-discuss:before {
+  content: "\ea3b";
+}
+.evicon-person-three-circle:before {
+  content: "\ea3c";
+}
+.evicon-pause:before {
+  content: "\ea3d";
+}
+.evicon-social:before {
+  content: "\ea35";
+}
+.evicon-mic:before {
+  content: "\ea30";
+}
+.evicon-plane-paper-2:before {
+  content: "\ea31";
+}
+.evicon-cross-circle:before {
+  content: "\ea32";
+}
+.evicon-cross-2:before {
+  content: "\ea33";
+}
+.evicon-check-circle:before {
+  content: "\ea34";
+}
+.evicon-sort-a-z:before {
+  content: "\ea22";
+}
+.evicon-sort-z-a:before {
+  content: "\ea23";
+}
+.evicon-sort-ya-alef:before {
+  content: "\ea24";
+}
+.evicon-sort-priority:before {
+  content: "\ea25";
+}
+.evicon-sort-one-nine:before {
+  content: "\ea26";
+}
+.evicon-sort-old-new:before {
+  content: "\ea27";
+}
+.evicon-sort-nine-one:before {
+  content: "\ea28";
+}
+.evicon-sort-new-old:before {
+  content: "\ea29";
+}
+.evicon-sort-magic:before {
+  content: "\ea2a";
+}
+.evicon-sort-alef-ya:before {
+  content: "\ea2b";
+}
+.evicon-ipad:before {
+  content: "\ea2c";
+}
+.evicon-ipad-arrow:before {
+  content: "\ea2d";
+}
+.evicon-cloud:before {
+  content: "\ea2e";
+}
+.evicon-cloud-cross:before {
+  content: "\ea2f";
+}
+.evicon-filter-2-cross:before {
+  content: "\ea20";
+}
+.evicon-filter-2:before {
+  content: "\ea21";
+}
+.evicon-card-square-tick:before {
+  content: "\ea1f";
+}
+.evicon-envelope-exchange:before {
+  content: "\ea1e";
+}
+.evicon-envelope-front-cross:before {
+  content: "\ea1c";
+}
+.evicon-refresh:before {
+  content: "\ea1d";
+}
+.evicon-bell-2:before {
+  content: "\ea1b";
+}
+.evicon-file-employee:before {
+  content: "\ea19";
+}
+.evicon-file-open-tip:before {
+  content: "\ea1a";
+}
+.evicon-file-pen:before {
+  content: "\e931";
+}
+.evicon-dragger-2:before {
+  content: "\e980";
+}
+.evicon-double-chevron-up:before {
+  content: "\e98c";
+}
+.evicon-chevron-2-up:before {
+  content: "\e991";
+}
+.evicon-chevron-2-right:before {
+  content: "\e992";
+}
+.evicon-chevron-2-left:before {
+  content: "\ea0d";
+}
+.evicon-double-chevron-right:before {
+  content: "\ea0e";
+}
+.evicon-double-chevron-left:before {
+  content: "\ea0f";
+}
+.evicon-double-chevron-down:before {
+  content: "\ea10";
+}
+.evicon-nothingness:before {
+  content: "\ea11";
+}
+.evicon-chevron-2-down:before {
+  content: "\ea12";
+}
+.evicon-dragger:before {
+  content: "\ea0b";
+}
+.evicon-branch-side:before {
+  content: "\ea0c";
+}
+.evicon-arrow-bottom-right:before {
+  content: "\ea07";
+}
+.evicon-arrow-bottom-left:before {
+  content: "\ea08";
+}
+.evicon-arrow-top-right:before {
+  content: "\ea09";
+}
+.evicon-arrow-top-left:before {
+  content: "\ea0a";
+}
+.evicon-document-forward:before {
+  content: "\ea03";
+}
+.evicon-file-check1:before {
+  content: "\ea04";
+}
+.evicon-document-hold:before {
+  content: "\ea05";
+}
+.evicon-correspondence-internal-special:before {
+  content: "\ea06";
+}
+.evicon-eraser:before {
+  content: "\ea02";
+}
+.evicon-branch-2:before {
+  content: "\ea01";
+}
+.evicon-megaphone-2:before {
+  content: "\ea13";
+}
+.evicon-finish:before {
+  content: "\e9ff";
+}
+.evicon-reprocess:before {
+  content: "\ea00";
+}
+.evicon-file-check:before {
+  content: "\e9fe";
+}
+.evicon-papers:before {
+  content: "\e9fd";
+}
+.evicon-magnifying-glass-check:before {
+  content: "\e9f9";
+}
+.evicon-magnifying-glass-eye:before {
+  content: "\e9fa";
+}
+.evicon-judge-hammer:before {
+  content: "\e9f6";
+}
+.evicon-book-libra:before {
+  content: "\e9f7";
+}
+.evicon-binocular:before {
+  content: "\e9f8";
+}
+.evicon-shield-exclamation:before {
+  content: "\e9fb";
+}
+.evicon-woman:before {
+  content: "\e9fc";
+}
+.evicon-plane-paper-attachment:before {
+  content: "\e9f5";
+}
+.evicon-arrows:before {
+  content: "\e9e1";
+}
+.evicon-copy:before {
+  content: "\e9e2";
+}
+.evicon-devices:before {
+  content: "\e9e3";
+}
+.evicon-flip-to-back:before {
+  content: "\e9e4";
+}
+.evicon-flip:before {
+  content: "\e9e5";
+}
+.evicon-fullscreen-exit:before {
+  content: "\e9e6";
+}
+.evicon-fullscreen:before {
+  content: "\e9e7";
+}
+.evicon-google-earth:before {
+  content: "\e9e8";
+}
+.evicon-link:before {
+  content: "\e9e9";
+}
+.evicon-lock-lock:before {
+  content: "\e9ea";
+}
+.evicon-lock-open:before {
+  content: "\e9eb";
+}
+.evicon-minus-circle:before {
+  content: "\e9ec";
+}
+.evicon-mood:before {
+  content: "\e9ed";
+}
+.evicon-rotate-right:before {
+  content: "\e9ee";
+}
+.evicon-sign-in:before {
+  content: "\e9ef";
+}
+.evicon-sort-amount-asc:before {
+  content: "\e9f0";
+}
+.evicon-swap-vertical:before {
+  content: "\e9f1";
+}
+.evicon-swap:before {
+  content: "\e9f2";
+}
+.evicon-zoom-in:before {
+  content: "\e9f3";
+}
+.evicon-zoom-out:before {
+  content: "\e9f4";
+}
+.evicon-deadline-auto:before {
+  content: "\e9df";
+}
+.evicon-deadline:before {
+  content: "\e9e0";
+}
+.evicon-bell-z:before {
+  content: "\e9dc";
+}
+.evicon-correspondence-decision:before {
+  content: "\e9dd";
+}
+.evicon-hd:before {
+  content: "\e9de";
+}
+.evicon-graph-bar:before {
+  content: "\e9d9";
+}
+.evicon-graph:before {
+  content: "\e9da";
+}
+.evicon-exclamation-triangle:before {
+  content: "\e9db";
+}
+.evicon-checkbox-active:before {
+  content: "\e9d2";
+}
+.evicon-checkbox-inactive:before {
+  content: "\e9d3";
+}
+.evicon-circle-check:before {
+  content: "\e9d4";
+}
+.evicon-delegate:before {
+  content: "\e9d5";
+}
+.evicon-key:before {
+  content: "\e9d6";
+}
+.evicon-radio-active:before {
+  content: "\e9d7";
+}
+.evicon-radio-inactive:before {
+  content: "\e9d8";
+}
+.evicon-twinbell-alert:before {
+  content: "\e9d0";
+}
+.evicon-twinbell:before {
+  content: "\e9d1";
+}
+.evicon-committee:before {
+  content: "\e9ce";
+}
+.evicon-office-box:before {
+  content: "\e9cf";
+}
+.evicon-abbyy-fr:before {
+  content: "\e9cb";
+}
+.evicon-lang:before {
+  content: "\e9cc";
+}
+.evicon-accept:before {
+  content: "\e9cd";
+}
+.evicon-pop-up:before {
+  content: "\e9c5";
+}
+.evicon-pencil-ruler:before {
+  content: "\e9c6";
+}
+.evicon-eye-stripped:before {
+  content: "\e9c7";
+}
+.evicon-envelope-out:before {
+  content: "\e9c8";
+}
+.evicon-envelope-in:before {
+  content: "\e9c9";
+}
+.evicon-crop:before {
+  content: "\e9ca";
+}
+.evicon-door:before {
+  content: "\e9c4";
+}
+.evicon-archive:before {
+  content: "\e9b3";
+}
+.evicon-branch:before {
+  content: "\e9b4";
+}
+.evicon-file-audio:before {
+  content: "\e9b5";
+}
+.evicon-file-email:before {
+  content: "\e9b6";
+}
+.evicon-file-excel:before {
+  content: "\e9b7";
+}
+.evicon-file-generic:before {
+  content: "\e9b8";
+}
+.evicon-file-image:before {
+  content: "\e9b9";
+}
+.evicon-file-pdf:before {
+  content: "\e9ba";
+}
+.evicon-file-powerpoint:before {
+  content: "\e9bb";
+}
+.evicon-file-txt:before {
+  content: "\e9bc";
+}
+.evicon-file-video:before {
+  content: "\e9bd";
+}
+.evicon-file-web:before {
+  content: "\e9be";
+}
+.evicon-file-word:before {
+  content: "\e9bf";
+}
+.evicon-file-zip:before {
+  content: "\e9c0";
+}
+.evicon-revert:before {
+  content: "\e9c1";
+}
+.evicon-signature-check:before {
+  content: "\e9c2";
+}
+.evicon-signature:before {
+  content: "\e9c3";
+}
+.evicon-sort:before {
+  content: "\e9b1";
+}
+.evicon-person-desk:before {
+  content: "\e9b2";
+}
+.evicon-card-chain:before {
+  content: "\e9ab";
+}
+.evicon-connect:before {
+  content: "\e9ac";
+}
+.evicon-envelope-chain:before {
+  content: "\e9ad";
+}
+.evicon-i-stripped:before {
+  content: "\e9ae";
+}
+.evicon-i:before {
+  content: "\e9af";
+}
+.evicon-paperclip:before {
+  content: "\e9b0";
+}
+.evicon-clock-2:before {
+  content: "\e9aa";
+}
+.evicon-bell-stripped:before {
+  content: "\e99e";
+}
+.evicon-database:before {
+  content: "\e99f";
+}
+.evicon-download-2:before {
+  content: "\e9a0";
+}
+.evicon-folder-plus:before {
+  content: "\e9a1";
+}
+.evicon-handshake:before {
+  content: "\e9a2";
+}
+.evicon-lamp:before {
+  content: "\e9a3";
+}
+.evicon-person-employee-two:before {
+  content: "\e9a4";
+}
+.evicon-person-three-sit-plus:before {
+  content: "\e9a5";
+}
+.evicon-plane-paper-stripped:before {
+  content: "\e9a6";
+}
+.evicon-search-cog:before {
+  content: "\e9a7";
+}
+.evicon-star-stripped:before {
+  content: "\e9a8";
+}
+.evicon-vcard-plus:before {
+  content: "\e9a9";
+}
+.evicon-box-draft:before {
+  content: "\e994";
+}
+.evicon-box-outbox:before {
+  content: "\e995";
+}
+.evicon-crown:before {
+  content: "\e996";
+}
+.evicon-exclamation-circled:before {
+  content: "\e997";
+}
+.evicon-flag:before {
+  content: "\e998";
+}
+.evicon-folder-options:before {
+  content: "\e999";
+}
+.evicon-grid:before {
+  content: "\e99a";
+}
+.evicon-late:before {
+  content: "\e99b";
+}
+.evicon-star-empty:before {
+  content: "\e99c";
+}
+.evicon-star-filled:before {
+  content: "\e99d";
+}
+.evicon-forward:before {
+  content: "\ea14";
+}
+.evicon-reply:before {
+  content: "\ea15";
+}
+.evicon-card-square:before {
+  content: "\ea16";
+}
+.evicon-save:before {
+  content: "\ea17";
+}
+.evicon-building-gov:before {
+  content: "\e97f";
+}
+.evicon-chain:before {
+  content: "\e981";
+}
+.evicon-correspondence-incoming-special:before {
+  content: "\e982";
+}
+.evicon-correspondence-incoming:before {
+  content: "\e983";
+}
+.evicon-correspondence-internal:before {
+  content: "\e984";
+}
+.evicon-correspondence-outgoing-special:before {
+  content: "\e985";
+}
+.evicon-correspondence-outgoing:before {
+  content: "\e986";
+}
+.evicon-embassy:before {
+  content: "\e987";
+}
+.evicon-eye-cc:before {
+  content: "\e988";
+}
+.evicon-eye-check:before {
+  content: "\e989";
+}
+.evicon-eye:before {
+  content: "\e98a";
+}
+.evicon-forward-head:before {
+  content: "\e98b";
+}
+.evicon-lightning:before {
+  content: "\e98d";
+}
+.evicon-merge:before {
+  content: "\e98e";
+}
+.evicon-print:before {
+  content: "\e98f";
+}
+.evicon-qr:before {
+  content: "\e990";
+}
+.evicon-utensil:before {
+  content: "\e993";
+}
+.evicon-bed-double:before {
+  content: "\e94e";
+}
+.evicon-bed:before {
+  content: "\e94f";
+}
+.evicon-box:before {
+  content: "\e950";
+}
+.evicon-building-duo:before {
+  content: "\e951";
+}
+.evicon-building-trio:before {
+  content: "\e952";
+}
+.evicon-calendar-add:before {
+  content: "\e953";
+}
+.evicon-car-normal:before {
+  content: "\e954";
+}
+.evicon-car-royal:before {
+  content: "\e955";
+}
+.evicon-car-side:before {
+  content: "\e956";
+}
+.evicon-cog:before {
+  content: "\e957";
+}
+.evicon-dashboard:before {
+  content: "\e958";
+}
+.evicon-diagram:before {
+  content: "\e959";
+}
+.evicon-folder:before {
+  content: "\e95a";
+}
+.evicon-h:before {
+  content: "\e95b";
+}
+.evicon-hierarchy:before {
+  content: "\e95c";
+}
+.evicon-history:before {
+  content: "\e95d";
+}
+.evicon-hourglass:before {
+  content: "\e95e";
+}
+.evicon-house-big:before {
+  content: "\e95f";
+}
+.evicon-house-small:before {
+  content: "\e960";
+}
+.evicon-i-circle:before {
+  content: "\e961";
+}
+.evicon-inspect:before {
+  content: "\e962";
+}
+.evicon-lock:before {
+  content: "\e963";
+}
+.evicon-megaphone:before {
+  content: "\e964";
+}
+.evicon-envelope-plus:before {
+  content: "\e965";
+}
+.evicon-minus:before {
+  content: "\e966";
+}
+.evicon-money:before {
+  content: "\e967";
+}
+.evicon-notes:before {
+  content: "\e968";
+}
+.evicon-passport:before {
+  content: "\e969";
+}
+.evicon-person-admin:before {
+  content: "\e96a";
+}
+.evicon-person-employee:before {
+  content: "\e96b";
+}
+.evicon-person-gov:before {
+  content: "\e96c";
+}
+.evicon-person-org:before {
+  content: "\e96d";
+}
+.evicon-pistol:before {
+  content: "\e96e";
+}
+.evicon-plane-bottom-right:before {
+  content: "\e96f";
+}
+.evicon-plane-left:before {
+  content: "\e970";
+}
+.evicon-plane-right:before {
+  content: "\e971";
+}
+.evicon-plane-top-left:before {
+  content: "\e972";
+}
+.evicon-question:before {
+  content: "\e973";
+}
+.evicon-scanner:before {
+  content: "\e974";
+}
+.evicon-ship:before {
+  content: "\e975";
+}
+.evicon-signal:before {
+  content: "\e976";
+}
+.evicon-sit:before {
+  content: "\e977";
+}
+.evicon-stamp:before {
+  content: "\e978";
+}
+.evicon-suitcase:before {
+  content: "\e979";
+}
+.evicon-sync:before {
+  content: "\e97a";
+}
+.evicon-timer:before {
+  content: "\e97b";
+}
+.evicon-train:before {
+  content: "\e97c";
+}
+.evicon-triangle-up:before {
+  content: "\e97d";
+}
+.evicon-write:before {
+  content: "\eae2";
+}
+.evicon-checklist:before {
+  content: "\ea18";
+}
+.evicon-pencil:before {
+  content: "\e94d";
+}
+.evicon-list-plus:before {
+  content: "\e900";
+}
+.evicon-list-reorder:before {
+  content: "\e901";
+}
+.evicon-list:before {
+  content: "\e902";
+}
+.evicon-location:before {
+  content: "\e903";
+}
+.evicon-mobile-phone:before {
+  content: "\e904";
+}
+.evicon-open-tip:before {
+  content: "\e905";
+}
+.evicon-open:before {
+  content: "\e906";
+}
+.evicon-person-check:before {
+  content: "\e907";
+}
+.evicon-person-plus:before {
+  content: "\e908";
+}
+.evicon-person-three-plus:before {
+  content: "\e909";
+}
+.evicon-person-three-sit:before {
+  content: "\e90a";
+}
+.evicon-person-three-stand:before {
+  content: "\e90b";
+}
+.evicon-person-three:before {
+  content: "\e90c";
+}
+.evicon-person-two:before {
+  content: "\e90d";
+}
+.evicon-person:before {
+  content: "\e90e";
+}
+.evicon-phone:before {
+  content: "\e90f";
+}
+.evicon-pin-slanted:before {
+  content: "\e910";
+}
+.evicon-pin:before {
+  content: "\e911";
+}
+.evicon-plane-top-right:before {
+  content: "\e912";
+}
+.evicon-plane-bottom-left:before {
+  content: "\e913";
+}
+.evicon-plane-paper:before {
+  content: "\e914";
+}
+.evicon-plus:before {
+  content: "\e915";
+}
+.evicon-present-box:before {
+  content: "\e916";
+}
+.evicon-questionnaire:before {
+  content: "\e917";
+}
+.evicon-search:before {
+  content: "\e918";
+}
+.evicon-sms:before {
+  content: "\e919";
+}
+.evicon-template:before {
+  content: "\e91a";
+}
+.evicon-trash:before {
+  content: "\e91b";
+}
+.evicon-tree-collapse:before {
+  content: "\e91c";
+}
+.evicon-tree-expand:before {
+  content: "\e91d";
+}
+.evicon-triangle-down:before {
+  content: "\e91e";
+}
+.evicon-triangle-left:before {
+  content: "\e91f";
+}
+.evicon-triangle-right:before {
+  content: "\e920";
+}
+.evicon-uncheck-all:before {
+  content: "\e921";
+}
+.evicon-upload:before {
+  content: "\e922";
+}
+.evicon-vcard-two:before {
+  content: "\e923";
+}
+.evicon-vcard:before {
+  content: "\e924";
+}
+.evicon-car-cheap:before {
+  content: "\e925";
+}
+.evicon-web:before {
+  content: "\e926";
+}
+.evicon-banquete:before {
+  content: "\e927";
+}
+.evicon-bell:before {
+  content: "\e928";
+}
+.evicon-board:before {
+  content: "\e929";
+}
+.evicon-booklet:before {
+  content: "\e92a";
+}
+.evicon-calendar:before {
+  content: "\e92b";
+}
+.evicon-cards:before {
+  content: "\e92c";
+}
+.evicon-certificate:before {
+  content: "\e92d";
+}
+.evicon-chat:before {
+  content: "\e92e";
+}
+.evicon-check-all:before {
+  content: "\e92f";
+}
+.evicon-check:before {
+  content: "\e930";
+}
+.evicon-chevron-down:before {
+  content: "\e932";
+}
+.evicon-chevron-left:before {
+  content: "\e933";
+}
+.evicon-chevron-right:before {
+  content: "\e934";
+}
+.evicon-chevron-up:before {
+  content: "\e935";
+}
+.evicon-circle-chevron-down:before {
+  content: "\e936";
+}
+.evicon-circle:before {
+  content: "\e937";
+}
+.evicon-clock:before {
+  content: "\e938";
+}
+.evicon-columns-reset:before {
+  content: "\e939";
+}
+.evicon-columns:before {
+  content: "\e93a";
+}
+.evicon-cross:before {
+  content: "\e93b";
+}
+.evicon-dots:before {
+  content: "\e93c";
+}
+.evicon-download:before {
+  content: "\e93d";
+}
+.evicon-email:before {
+  content: "\e93e";
+}
+.evicon-envelope-back:before {
+  content: "\e93f";
+}
+.evicon-envelope-front:before {
+  content: "\e940";
+}
+.evicon-envelope-opened:before {
+  content: "\e941";
+}
+.evicon-exclamation:before {
+  content: "\e942";
+}
+.evicon-export:before {
+  content: "\e943";
+}
+.evicon-faqs:before {
+  content: "\e944";
+}
+.evicon-filter-cross:before {
+  content: "\e945";
+}
+.evicon-filter:before {
+  content: "\e946";
+}
+.evicon-globe:before {
+  content: "\e947";
+}
+.evicon-hamburger:before {
+  content: "\e948";
+}
+.evicon-hand:before {
+  content: "\e949";
+}
+.evicon-import:before {
+  content: "\e94a";
+}
+.evicon-language-ar:before {
+  content: "\e94b";
+}
+.evicon-language-en:before {
+  content: "\e94c";
+}
